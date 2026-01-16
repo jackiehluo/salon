@@ -222,6 +222,41 @@
     ]
   },
   {
+    "name": "iain nash",
+    "tagline": "poor image defender",
+    "bio": "Software engineer who likes to tinker with media. Thinks about the lifecycle and journey of data—how images and text get mutated, transported, stored. Some of that work lives at iain.in/interactive. In recent years, Burning Man has been a creative outlet for making experiences and technology to support ideas.",
+    "bioUrl": "https://iain.in/interactive",
+    "intellectual": {
+      "title": "In Defense of the Poor Image",
+      "content": "https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image",
+      "summary": "Hito Steyerl's essay arguing that low-resolution images—'copies in motion'—deserve recognition despite their degradation. Critiques the 'class society of images' where high-definition occupies elite status. Poor images have resurrected marginalized films that disappeared from commercial distribution; they embody democratic accessibility, enabling users to become 'editors, critics, translators, and (co-)authors.' The paradox: while they challenge commercial image economies, they also feed information capitalism's demand for compressed content. Poor images reveal the actual conditions of digital circulation.",
+      "themes": ["images", "circulation", "democracy", "degradation", "digital culture", "accessibility"]
+    },
+    "emotional": {
+      "title": "Solitude of Silences",
+      "content": "https://gimhongsok.com/Solitude-of-Silences_19",
+      "summary": "2017 performance by Gimhongsok featuring people wearing resin animal masks (dog, donkey, lamb, chimpanzee) sitting or lying in gallery spaces for extended periods. Each performer has a distinct background—unemployed workers, political refugees—and receives different compensation. Accompanying narratives explain their circumstances. Highlights stillness and silence as protest against hustle culture; also shows how capitalism silences voices through exhaustion and removal of personal autonomy.",
+      "themes": ["silence", "labor", "capitalism", "protest", "identity", "exhaustion", "performance"]
+    },
+    "matches": [
+      {
+        "name": "Teddy Smyth",
+        "reason": "You're both obsessed with images and how they move. Your Steyerl essay is about poor images gaining meaning through transmission; Teddy's video analysis examines how footage reveals truth. Both know that seeing is never neutral.",
+        "question": "Steyerl says poor images embody 'reality' by revealing conditions of circulation. What has a degraded image taught you that a crisp one couldn't?"
+      },
+      {
+        "name": "Lauren Lee",
+        "reason": "Your essay defends images that get dismissed; Lauren's attention piece is about the difficulty of truly seeing without self-consciousness. Both examine what gets lost in the act of looking.",
+        "question": "Steyerl argues poor images enable democratic participation. What's something you've learned from a blurry screenshot?"
+      },
+      {
+        "name": "Corrine Ciani",
+        "reason": "Your Gimhongsok piece uses silence as protest against capitalism's demands on the body. Corrine's prairie madness is about isolation breaking the mind. Both sit with what happens when the noise stops.",
+        "question": "The performers in Solitude of Silences sit still for hours. What's the longest you've been silent?"
+      }
+    ]
+  },
+  {
     "name": "Jackie Fu",
     "photo": "photos/jackiefu.jpg",
     "tagline": "romance devotee",
