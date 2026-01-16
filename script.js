@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateTheme(dark) {
     if (dark) {
       document.documentElement.setAttribute('data-theme', 'dark');
-      toggle.textContent = '☀';
+      toggle.textContent = '☀︎';
       if (holder) holder.setAttribute('stroke', '#8a8580');
     } else {
       document.documentElement.removeAttribute('data-theme');
-      toggle.textContent = '☽';
+      toggle.textContent = '☽︎';
       if (holder) holder.setAttribute('stroke', '#1a1a1a');
     }
   }
