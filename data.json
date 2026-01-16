@@ -364,5 +364,40 @@
         "question": "Takata's work questions masculine and feminine definitions. Where do you feel most free from those categories?"
       }
     ]
+  },
+  {
+    "name": "Camille Vargas",
+    "tagline": "keeper of legacies",
+    "bio": "@chamomileandhoney",
+    "bioUrl": "https://www.instagram.com/chamomileandhoney/",
+    "intellectual": {
+      "title": "Remedios Varo: Science Fictions",
+      "content": "https://www.artic.edu/exhibitions/9935/remedios-varo-science-fictions",
+      "summary": "Exhibition of Spanish-Mexican Surrealist Remedios Varo—mystical musicians, eccentric scientists, voyagers in curious contraptions. Her paintings blend chance-based Surrealist techniques with imagery from chivalric romance, ecology, mysticism, psychology, and tarot. Works 'suffused with material enchantment' that visualize hidden orders and unseen truths.",
+      "themes": ["surrealism", "mysticism", "science", "enchantment", "women artists", "Mexico"]
+    },
+    "emotional": {
+      "title": "On Such a Full Sea by Chang-rae Lee",
+      "content": "https://en.wikipedia.org/wiki/On_Such_a_Full_Sea",
+      "summary": "Dystopian novel told in first-person plural ('we') about Fan, a young fish-tank diver who leaves her regulated Charter village to find her missing boyfriend in a post-apocalyptic America. A quiet, resolute heroine on a journey through anarchic open counties. Title from Shakespeare: 'On such a full sea are we now afloat; and we must take the current when it serves, or lose our ventures.'",
+      "themes": ["journey", "love", "dystopia", "community", "resoluteness", "pursuit"]
+    },
+    "matches": [
+      {
+        "name": "Jackie Luo",
+        "reason": "Remedios Varo blends science and mysticism to visualize 'hidden orders and unseen truths.' Jackie's Wigner paper asks why abstract math describes physical reality. Both are drawn to the enchantment lurking in rational systems.",
+        "question": "Varo painted eccentric scientists and mystical voyagers. What's something in your life that feels both scientific and magical?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Fan leaves everything to find her beloved. Carver's deathbed poem says what he wanted was 'to feel myself beloved on the earth.' Both are about pursuit and what we're willing to risk for love.",
+        "question": "Fan quietly leaves her whole world to find Reg. What would you leave everything for?"
+      },
+      {
+        "name": "Kiera Wolfe",
+        "reason": "On Such a Full Sea is told in collective 'we'—a community narrating one woman's journey. The Reservoir is about recovery within intergenerational community. Both honor the communal voice.",
+        "question": "Chang-rae Lee uses 'we' instead of 'I.' When has a community carried your story?"
+      }
+    ]
   }
 ]
