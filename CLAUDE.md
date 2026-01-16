@@ -21,10 +21,10 @@
    - *Themes*: 5-8 keywords per text
    - *Taglines*: 3-5 words ending in a noun
 
-4. **Generate matches** — 3 per person, balance across both picks
+4. **Generate matches** — 3 per person, based on texts and/or bio, balance across both picks
 
    *Reasons should:*
-   - Connect specific ideas/themes between both people's texts (not just "you both like X")
+   - Connect specific ideas/themes between texts, or find resonance with bios (not just "you both like X")
    - Find thematic resonance, productive tension, or unexpected complement
    - Reference actual concepts, quotes, or arguments from the works
 
