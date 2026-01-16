@@ -92,8 +92,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     let html = '';
     if (url || urlAlt) {
       html += '<div class="modal-links">';
-      if (url) html += `<a href="${url}" target="_blank" rel="noopener">View more on the work ↗︎</a>`;
-      if (urlAlt) html += `<a href="${urlAlt}" target="_blank" rel="noopener">Photos ↗︎</a>`;
+      if (url) html += `<a href="${url}" target="_blank" rel="noopener">View the work ↗︎</a>`;
+      if (urlAlt) html += `<a href="${urlAlt}" target="_blank" rel="noopener">More on the work ↗︎</a>`;
       html += '</div>';
     }
     html += paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');

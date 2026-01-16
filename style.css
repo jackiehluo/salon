@@ -476,11 +476,6 @@ body {
   text-decoration: none;
   font-style: italic;
   text-align: center;
-  border-right: 1px solid var(--border);
-}
-
-.modal .modal-content .modal-links a:last-child {
-  border-right: none;
 }
 
 .modal .modal-content .modal-links a:hover {
