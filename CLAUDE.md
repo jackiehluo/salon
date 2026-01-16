@@ -21,15 +21,15 @@
    - *Themes*: 5-8 keywords per text
    - *Taglines*: 3-5 words ending in a noun
 
-4. **Generate matches** — 3 per person, based on texts and/or bio, balance across both picks
+4. **Generate matches** — 3 per person, based on chosen works and/or bio, balance across both picks
 
    *Reasons should:*
-   - Connect specific ideas/themes between texts, or find resonance with bios (not just "you both like X")
+   - Connect specific ideas/themes between chosen works, or find resonance with bios (not just "you both like X")
    - Find thematic resonance, productive tension, or unexpected complement
    - Reference actual concepts, quotes, or arguments from the works
 
    *Questions should:*
-   - Engage with the intellectual content of the texts
+   - Engage with the intellectual content of the chosen works
    - Invite personal reflection or application (not just "what do you think of X?")
    - Be specific enough to spark real conversation, open enough to go deep
    - Avoid generic icebreakers
@@ -65,6 +65,6 @@
 }
 ```
 
-`intellectual` and `emotional` can be arrays for multiple texts.
+`intellectual` and `emotional` can be arrays for multiple chosen works.
 
 If guest provides both a link and commentary, use `content` for the URL and `blurb` for their text. Modal shows the blurb with a "View the work" link.
