@@ -462,19 +462,28 @@ body {
   margin-bottom: 0;
 }
 
-.modal .modal-content .modal-link {
+.modal .modal-content .modal-links {
+  display: flex;
+  gap: 0;
   margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
 }
 
-.modal .modal-content .modal-link a {
+.modal .modal-content .modal-links a {
+  flex: 1;
+  padding: 0.75rem 0;
   color: var(--text);
   text-decoration: none;
   font-style: italic;
+  text-align: center;
+  border-right: 1px solid var(--border);
 }
 
-.modal .modal-content .modal-link a:hover {
+.modal .modal-content .modal-links a:last-child {
+  border-right: none;
+}
+
+.modal .modal-content .modal-links a:hover {
   color: var(--ember);
 }
 

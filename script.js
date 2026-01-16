@@ -91,11 +91,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const paragraphs = content.split('\n').filter(p => p.trim());
     let html = '';
     if (url || urlAlt) {
-      html += '<p class="modal-link">';
-      if (url) html += `<a href="${url}" target="_blank" rel="noopener">View the work ↗︎</a>`;
-      if (url && urlAlt) html += ' · ';
+      html += '<div class="modal-links">';
+      if (url) html += `<a href="${url}" target="_blank" rel="noopener">View more on the work ↗︎</a>`;
       if (urlAlt) html += `<a href="${urlAlt}" target="_blank" rel="noopener">Photos ↗︎</a>`;
-      html += '</p>';
+      html += '</div>';
     }
     html += paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
     modalContent.innerHTML = html;
