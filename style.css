@@ -262,6 +262,7 @@ body {
   margin-left: 0.3em;
   color: var(--smoke);
   font-family: system-ui, -apple-system, sans-serif;
+  vertical-align: baseline;
 }
 
 /* Matches Button */
