@@ -39,6 +39,7 @@
   "intellectual": {
     "title": "Title",
     "content": "URL or full text",
+    "blurb": "Guest's own commentary (optional)",
     "summary": "Rich summary",
     "themes": ["theme1", "theme2"]
   },
@@ -50,3 +51,5 @@
 ```
 
 `intellectual` and `emotional` can be arrays for multiple texts.
+
+If guest provides both a link and commentary, use `content` for the URL and `blurb` for their text. Modal shows the blurb with a "View the work" link.
