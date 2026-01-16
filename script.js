@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const content = text.content;
 
     if (isUrl(content)) {
-      return `<a href="${content}" target="_blank" rel="noopener">${text.title}<span class="external-icon">↗</span></a>`;
+      return `<a href="${content}" target="_blank" rel="noopener">${text.title}<span class="external-icon">↗︎</span></a>`;
     } else {
       return `<span>${text.title}</span>`;
     }
