@@ -1,3 +1,38 @@
+// Theme toggle
+(function() {
+  const stored = localStorage.getItem('theme');
+  if (stored === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('theme-toggle');
+  const holder = document.querySelector('.cigarette-svg line:first-of-type');
+
+  function updateTheme(dark) {
+    if (dark) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      toggle.textContent = '☀';
+      if (holder) holder.setAttribute('stroke', '#e8e4d9');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      toggle.textContent = '☽';
+      if (holder) holder.setAttribute('stroke', '#1a1a1a');
+    }
+  }
+
+  // Set initial state
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  updateTheme(isDark);
+
+  toggle.addEventListener('click', () => {
+    const nowDark = document.documentElement.getAttribute('data-theme') !== 'dark';
+    updateTheme(nowDark);
+    localStorage.setItem('theme', nowDark ? 'dark' : 'light');
+  });
+});
+
 // Load and render guest data
 document.addEventListener('DOMContentLoaded', async () => {
   const directory = document.getElementById('directory');

@@ -5,6 +5,18 @@
 }
 
 :root {
+  --bg: #f5f2eb;
+  --bg-card: #fdfcfa;
+  --bg-elevated: #f5f2eb;
+  --text: #1a1a1a;
+  --text-muted: #4a4a4a;
+  --border: #e8e4d9;
+  --ember: #d4582a;
+  --smoke: #999;
+  --holder: #1a1a1a;
+}
+
+[data-theme="dark"] {
   --bg: #1a1815;
   --bg-card: #242220;
   --bg-elevated: #2a2826;
@@ -13,6 +25,7 @@
   --border: #3a3835;
   --ember: #d4582a;
   --smoke: #7a756c;
+  --holder: #e8e4d9;
 }
 
 body {
@@ -21,6 +34,7 @@ body {
   color: var(--text);
   min-height: 100vh;
   line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -178,6 +192,7 @@ body {
   border: 1px solid var(--border);
   padding: 2rem;
   position: relative;
+  transition: background-color 0.3s;
 }
 
 .guest-header {
@@ -340,7 +355,7 @@ body {
   position: relative;
   border-radius: 1rem 1rem 0 0;
   transform: translateY(100%);
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, background-color 0.3s;
 }
 
 .modal-overlay.active .modal {
@@ -487,6 +502,29 @@ body {
   content: "Ask: ";
   font-style: italic;
   color: var(--smoke);
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, border-color 0.3s;
+  z-index: 100;
+}
+
+.theme-toggle:hover {
+  border-color: var(--text-muted);
 }
 
 /* Responsive */
