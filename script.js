@@ -83,15 +83,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     modalOverlay.classList.remove('active');
   }
 
-  function openModal(category, author, title, content, url = null) {
+  function openModal(category, author, title, content, url = null, urlAlt = null) {
     modalCategory.textContent = category;
     modalAuthor.textContent = author;
     modalTitle.textContent = title;
     // Split by newlines and wrap in paragraphs
     const paragraphs = content.split('\n').filter(p => p.trim());
     let html = '';
-    if (url) {
-      html += `<p class="modal-link"><a href="${url}" target="_blank" rel="noopener">View the work ↗︎</a></p>`;
+    if (url || urlAlt) {
+      html += '<p class="modal-link">';
+      if (url) html += `<a href="${url}" target="_blank" rel="noopener">View the work ↗︎</a>`;
+      if (url && urlAlt) html += ' · ';
+      if (urlAlt) html += `<a href="${urlAlt}" target="_blank" rel="noopener">Photos ↗︎</a>`;
+      html += '</p>';
     }
     html += paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
     modalContent.innerHTML = html;
@@ -190,7 +194,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         el.addEventListener('click', () => {
           const content = item.blurb || item.content;
           const url = item.blurb ? item.content : null;
-          openModal('intellectual resonance', guest.name, item.title, content, url);
+          const urlAlt = item.contentAlt || null;
+          openModal('intellectual resonance', guest.name, item.title, content, url, urlAlt);
         });
       }
     });
@@ -201,7 +206,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         el.addEventListener('click', () => {
           const content = item.blurb || item.content;
           const url = item.blurb ? item.content : null;
-          openModal('emotional resonance', guest.name, item.title, content, url);
+          const urlAlt = item.contentAlt || null;
+          openModal('emotional resonance', guest.name, item.title, content, url, urlAlt);
         });
       }
     });
