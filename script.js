@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const modalAuthor = document.getElementById('modal-author');
   const modalTitle = document.getElementById('modal-title');
   const modalContent = document.getElementById('modal-content');
+  const modalMatches = document.getElementById('modal-matches');
 
   // Load guest data
   let guests = [];
@@ -44,6 +45,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     modalAuthor.textContent = author;
     modalTitle.textContent = title;
     modalContent.textContent = content;
+    modalMatches.innerHTML = '';
+    modalMatches.style.display = 'none';
+    modalOverlay.classList.add('active');
+  }
+
+  function openMatchesModal(guestName, matches) {
+    modalCategory.textContent = 'conversational matches';
+    modalAuthor.textContent = guestName;
+    modalTitle.textContent = '';
+    modalContent.textContent = '';
+
+    const matchesHtml = matches.map(match => `
+      <div class="modal-match-item">
+        <div class="modal-match-name">${match.name}</div>
+        <div class="modal-match-reason">${match.reason}</div>
+        <div class="modal-match-question">${match.question}</div>
+      </div>
+    `).join('');
+
+    modalMatches.innerHTML = matchesHtml;
+    modalMatches.style.display = 'block';
     modalOverlay.classList.add('active');
   }
 
@@ -63,15 +85,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Texts - handle single or multiple entries
     const intellectualItems = Array.isArray(guest.intellectual) ? guest.intellectual : [guest.intellectual];
     const emotionalItems = Array.isArray(guest.emotional) ? guest.emotional : [guest.emotional];
-
-    // Matches
-    const matchesHtml = guest.matches.map(match => `
-      <div class="match-item">
-        <div class="match-name">${match.name}</div>
-        <div class="match-reason">${match.reason}</div>
-        <div class="match-question">${match.question}</div>
-      </div>
-    `).join('');
 
     // Build text items HTML
     const intellectualHtml = intellectualItems.map((item, i) => `
@@ -93,7 +106,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         ${photoHtml}
         <div class="guest-info">
           <h2 class="guest-name">${guest.name}</h2>
-          ${guest.bio ? `<p class="guest-bio">${guest.bioUrl ? `<a href="${guest.bioUrl}" target="_blank" rel="noopener">${guest.bio}</a>` : guest.bio}</p>` : ''}
+          ${guest.tagline ? `<div class="guest-tagline">${guest.tagline}</div>` : ''}
         </div>
       </header>
       <div class="texts">
@@ -103,19 +116,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       <div class="matches">
         <button class="matches-toggle">
           <span>conversational matches</span>
-          <span class="matches-toggle-icon">&#9662;</span>
         </button>
-        <div class="matches-content">
-          ${matchesHtml}
-        </div>
       </div>
     `;
 
-    // Accordion toggle
-    const matchesSection = card.querySelector('.matches');
+    // Matches modal toggle
     const toggleBtn = card.querySelector('.matches-toggle');
     toggleBtn.addEventListener('click', () => {
-      matchesSection.classList.toggle('open');
+      openMatchesModal(guest.name, guest.matches);
     });
 
     // Add click handlers for plaintext items
@@ -144,7 +152,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const content = text.content;
 
     if (isUrl(content)) {
-      return `<a href="${content}" target="_blank" rel="noopener">${text.title}</a>`;
+      return `<a href="${content}" target="_blank" rel="noopener">${text.title}<span class="external-icon">↗</span></a>`;
     } else {
       return `<span>${text.title}</span>`;
     }

@@ -1,6 +1,6 @@
 # jackie's birthday salon
 
-a little web app for a birthday salon where guests share texts that resonate intellectually and emotionally, and get matched with conversation partners.
+a little web app for a birthday salon where guests share texts that resonate intellectually and emotionally and get matched with conversation partners.
 
 ## run locally
 
@@ -19,7 +19,7 @@ curl -s "https://api.airtable.com/v0/$AIRTABLE_BASE_ID/Table%201" \
   -H "Authorization: Bearer $AIRTABLE_API_KEY"
 ```
 
-2. update `data.json` with new guests, titles, and matches
+2. update `data.json` with new guests, taglines, titles, matches, summaries, and themes
 
 3. download photos to `photos/` folder:
 ```bash

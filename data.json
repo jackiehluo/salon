@@ -1,125 +1,367 @@
 [
   {
+    "name": "Alice Li",
+    "photo": "photos/alice.jpg",
+    "tagline": "pole-dancing gamer",
+    "bio": "games, pole, chinese dramas",
+    "intellectual": {
+      "title": "Get In Loser, We're Friction-Maxxing",
+      "content": "https://slate.com/podcasts/icymi/2026/01/what-is-friction-maxxing",
+      "summary": "Podcast arguing that technology has eliminated 'friction' (small inconveniences, uncertainty, boredom) from our lives, reducing our 'experiential capacity'—how much life we're capable of letting in. Key insight: transcendence and genuine connection only happen in environments slightly out of our control.",
+      "themes": ["attention", "technology", "presence", "boredom", "control", "connection"]
+    },
+    "emotional": {
+      "title": "Meditations for Mortals by Oliver Burkeman",
+      "content": "\"The main point... is to develop the willingness to just do something, here and now, as a one-off, regardless of whether it's part of any system or habit or routine. If you don't prioritize the skill of just doing something, you risk falling into an exceedingly sneaky trap, which is that you end up embarking instead on the unnecessary and, worse, counterproductive project of _becoming the kind of person who does that sort of thing_.\"",
+      "summary": "Quote about the trap of self-optimization—trying to become 'the kind of person who does X' rather than just doing X. Advocates for one-off action over identity construction.",
+      "themes": ["identity", "action", "productivity", "self-improvement", "presence"]
+    },
+    "matches": [
+      {
+        "name": "Garland Gay",
+        "reason": "Friction-maxxing argues we need uncontrollable environments to feel alive; Garland's piece argues character itself is contextual and uncontrollable. You're both drawn to ideas that challenge the optimization mindset.",
+        "question": "The friction piece argues transcendence only comes in environments slightly out of our control. Where in your life do you still allow that uncontrollability?"
+      },
+      {
+        "name": "Jaclyn Chan",
+        "reason": "The friction piece emphasizes 'experiential capacity'—how much life you're capable of letting in. Jaclyn's Proust piece is about how reading expands consciousness. Both are about attention as a practice.",
+        "question": "Proust says we gain 'the experience of thinking thoughts we were not capable of forming.' What's something that expanded your capacity like that?"
+      },
+      {
+        "name": "Kiera Wolfe",
+        "reason": "You both chose pieces about form and attention—friction-maxxing is about tolerating boredom; Egan's PowerPoint chapter is about pauses in music. Both suggest meaning lives in the gaps.",
+        "question": "What's a pause or gap in your life that turned out to be important?"
+      }
+    ]
+  },
+  {
     "name": "Freia Lobo",
     "photo": "photos/freia.jpg",
+    "tagline": "restaurant philosopher",
     "bio": "substack.com/@freia",
     "bioUrl": "https://substack.com/@freia",
     "intellectual": {
       "title": "An Existential Guide to: Making Friends",
-      "content": "https://theshadowedarchive.substack.com/p/an-existential-guide-to-making-friends"
+      "content": "https://theshadowedarchive.substack.com/p/an-existential-guide-to-making-friends",
+      "summary": "Essay arguing 'friendship is impossible, therefore it must be done.' Rejects Aristotle (utility fails), Montaigne (circular), Nietzsche (disconnected from ordinary life). Key concepts: we 'trade masks' with others; connection requires strategic vulnerability not naked truth; 'tolerate untelevised time' (most friendship is unglamorous dailiness); the 'Infinite Friend' (moments when boundary between self and world dissolves).",
+      "themes": ["friendship", "vulnerability", "authenticity", "connection", "philosophy", "dailiness"]
     },
     "emotional": [
-      { "title": "Caity Weaver's obituary for her mom", "content": "https://www.caity.info/blog-1-1/38pemy9n0rnu7aapinrjy5uiatmvg3-8ex53" },
-      { "title": "Caity Weaver's obituary for her dad", "content": "https://www.caity.info/blog-1-1/38pemy9n0rnu7aapinrjy5uiatmvg3" }
+      {
+        "title": "Caity Weaver's obituary for her mom",
+        "content": "https://www.caity.info/blog-1-1/38pemy9n0rnu7aapinrjy5uiatmvg3-8ex53",
+        "summary": "Personal obituary by writer Caity Weaver for her mother.",
+        "themes": ["mortality", "family", "loss", "love", "memory"]
+      },
+      {
+        "title": "Caity Weaver's obituary for her dad",
+        "content": "https://www.caity.info/blog-1-1/38pemy9n0rnu7aapinrjy5uiatmvg3",
+        "summary": "Personal obituary by writer Caity Weaver for her father.",
+        "themes": ["mortality", "family", "loss", "love", "memory"]
+      }
     ],
     "matches": [
       {
+        "name": "Jaclyn Chan",
+        "reason": "Your friendship piece argues we 'trade masks' and connection requires strategic vulnerability. Jaclyn's piece argues we habitually underestimate people by observing them in limited contexts. Both are about how hard it is to truly see someone.",
+        "question": "The friendship piece says 'only impossible endeavors carry real significance.' What impossible thing are you attempting right now?"
+      },
+      {
         "name": "Jackie Luo",
-        "reason": "You both chose pieces about connection and the ache of what could have been—friendship as an existential project, and Stevens' quiet heartbreak.",
-        "question": "What relationship do you think about when you wonder 'what if'?"
+        "reason": "Your piece argues friendship requires 'tolerating untelevised time'—the unglamorous dailiness. Jackie's Ishiguro excerpt is about Stevens and Miss Kenton's decades of untelevised time and what went unsaid.",
+        "question": "The friendship piece talks about the 'Infinite Friend'—moments when the boundary between self and world dissolves. When have you felt that?"
       },
       {
         "name": "Luna Ruan",
-        "reason": "You both brought writing about mortality and tenderness—parents lost, the urgency of feeling beloved before it's too late.",
-        "question": "How do you want to be remembered by the people you love?"
-      },
+        "reason": "Your piece says friendship involves 'accepting inevitable betrayal as inherent to human connection.' Luna's texts are about mortality and tenderness—both wrestle with what we owe each other before it's too late.",
+        "question": "What does it mean to be a good friend to someone you might lose?"
+      }
+    ]
+  },
+  {
+    "name": "Garland Gay",
+    "photo": "photos/garland.jpg",
+    "tagline": "finance's funniest oversharer",
+    "bio": "@ebitmom",
+    "bioUrl": "https://x.com/ebitmom",
+    "intellectual": {
+      "title": "Where Do Eels Come From?",
+      "content": "https://www.newyorker.com/magazine/2020/05/25/where-do-eels-come-from",
+      "summary": "New Yorker article about the mystery of eel reproduction—no one has ever seen eels mate, and their lifecycle remained a scientific mystery for centuries. Explores how this creature resisted human understanding.",
+      "themes": ["mystery", "nature", "science", "unknowability", "curiosity"]
+    },
+    "emotional": {
+      "title": "The Tipping Point",
+      "content": "When it comes to judging other people's behavior, human beings make the mistake of overestimating the importance of fundamental character traits and underestimating the importance of situation and context. We always reach for a \"dispositional opinion\" rather than a \"contextual opinion\".\n\nThe human mind has a kind of reducing valve that tends to maintain continuity even in the face of perpetual observed changes in actual behavior.\n\nWhen we observe a woman who seems hostile and fiercely independent some of the time but passive, dependent and feminine on other occasions, our reducing valve makes us choose between the two syndromes. We decide that one pattern is in the service of the other, or that both are in the service of a third motive. She must be a really castrating lady with a façade of passivity—or perhaps she is a warm, passive-dependent woman with a surface defense of aggressiveness. But perhaps nature is bigger than our concepts and it is possible for the lady to be a hostile, fiercely independent, passive, dependent, feminine, aggressive, castrating person all-in-one. Of course, which of these she is at any particular moment would not be random or capricious—it would depend on who she is with, when, how and much, much more. But each of these aspects of herself may be a quite genuine and real aspect of her total being.\n\nCharacter, then, isn't what we think it is or rather, what we want it to be. It isn't a stable, easily identifiable set of closely related traits, and it only seems that way because of a glitch in the way our brains are organized. Character is more like a bundle of habits and tendencies and interests, loosely bound together and dependent, at certain times, on circumstance and context. The reason why most of us seem to have a consistent character is that most of us are reasonably good at controlling our environment.",
+      "summary": "Gladwell excerpt arguing character is contextual, not fixed. We overestimate personality traits and underestimate situation. We're all contradictions—'hostile, fiercely independent, passive, dependent, feminine, aggressive' all at once depending on context. Character is 'a bundle of habits loosely bound together.'",
+      "themes": ["identity", "character", "context", "psychology", "contradiction", "self"]
+    },
+    "matches": [
       {
         "name": "Rachel Luo",
-        "reason": "You're both interested in identity and connection without stable ground—how we build relationships when the self keeps shifting.",
-        "question": "Do you think the person you were ten years ago would recognize your friendships now?"
+        "reason": "Your Gladwell piece argues character is contextual, not fixed. Rachel's Parfit excerpt argues personal identity is similarly unstable—we're no more connected to our past selves than to siblings. Both dissolve the myth of a stable self.",
+        "question": "If character is just 'a bundle of habits loosely bound together,' what holds your bundle together?"
+      },
+      {
+        "name": "Alice Li",
+        "reason": "Your piece argues we're all contradictions depending on context. Alice's friction piece argues we need uncontrollable environments to feel alive. Both push back against the optimization of selfhood.",
+        "question": "The eel article is about a creature that resisted scientific understanding for centuries. What about yourself resists your own understanding?"
+      },
+      {
+        "name": "Shii Ann Huang",
+        "reason": "Your piece challenges the idea of a stable character. Shii Ann's Buddhism book argues the self is largely illusion. Both suggest we're less solid than we think.",
+        "question": "Buddhism says the self is constructed. Gladwell says character is contextual. Do you find that liberating or unsettling?"
+      }
+    ]
+  },
+  {
+    "name": "Jackie Fu",
+    "photo": "photos/jackiefu.jpg",
+    "tagline": "romance devotee",
+    "bio": "jackielfu.com",
+    "bioUrl": "https://jackielfu.com",
+    "intellectual": {
+      "title": "Perfection",
+      "content": "https://en.wikipedia.org/wiki/Perfection_(novel)",
+      "summary": "Novel by Vikram Chandra about craft, obsession, and the pursuit of perfection.",
+      "themes": ["craft", "obsession", "perfection", "fiction", "ambition"]
+    },
+    "emotional": {
+      "title": "Heated Rivalry",
+      "content": "https://en.wikipedia.org/wiki/Heated_Rivalry",
+      "summary": "Hockey romance novel by Rachel Reid about rivals who become lovers. Explores competition, desire, and the thin line between hatred and love.",
+      "themes": ["romance", "rivalry", "desire", "competition", "vulnerability"]
+    },
+    "matches": [
+      {
+        "name": "Kiera Wolfe",
+        "reason": "You both chose fiction that plays with form and craft—novels that care about how stories are told, not just what happens.",
+        "question": "What draws you to a book—the premise, the prose, or something else?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Heated Rivalry is about rivals who become lovers; Luna's Carver poem asks 'did you get what you wanted from this life?' Both are about desire and what we're really after.",
+        "question": "What do you want that you haven't admitted to yourself yet?"
+      },
+      {
+        "name": "Jaclyn Chan",
+        "reason": "You both seem drawn to stories about obsession and craft—the pursuit of excellence and what it costs.",
+        "question": "What's something you've pursued with the intensity of a rivalry?"
       }
     ]
   },
   {
     "name": "Jackie Luo",
     "photo": "photos/jackie.jpg",
+    "tagline": "your host",
     "bio": "jackieluo.com",
     "bioUrl": "https://jackieluo.com",
     "intellectual": {
       "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
-      "content": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf"
+      "content": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf",
+      "summary": "Famous 1960 paper by physicist Eugene Wigner asking why abstract mathematics describes physical reality so well. The 'unreasonable effectiveness' is that math developed for pure reasons turns out to describe nature perfectly—a philosophical puzzle without clean resolution.",
+      "themes": ["mathematics", "physics", "philosophy", "mystery", "abstraction", "reality"]
     },
     "emotional": {
-      "title": "The Remains of the Day",
-      "content": "It is now fully two days since my meeting with Miss Kenton in the tea lounge of the Rose Garden Hotel in Little Compton. For indeed, that was where we met, Miss Kenton surprising me by coming to the hotel. I had been whiling away some time after finishing my lunch – I was, I believe, simply staring at the rain from the window by my table – when a member of the hotel staff had come to inform me that a lady was wishing to see me at the reception. I rose and went out into the lobby, where I could see no one I recognized. But then the receptionist had said from behind her counter: 'The lady's in the tea lounge, sir.'\n\nGoing in through the door indicated, I discovered a room filled with ill-matching armchairs and occasional tables. There was no one else present other than Miss Kenton, who rose as I entered, smiled and held out her hand to me.\n\n'Ah, Mr Stevens. How nice to see you again.'\n\n'Mrs Benn, how lovely.'\n\nThe light in the room was extremely gloomy on account of the rain, and so we moved two armchairs up close to the bay window. And that was how Miss Kenton and I talked for the next two hours or so, there in the pool of grey light while the rain continued to fall steadily on the square outside.\n\nShe had, naturally, aged somewhat, but to my eyes at least, she seemed to have done so very gracefully. Her figure remained slim, her posture as upright as ever. She had maintained, too, her old way of holding her head in a manner that verged on the defiant. Of course, with the bleak light falling on her face, I could hardly help but notice the lines that had appeared here and there. But by and large the Miss Kenton I saw before me looked surprisingly similar to the person who had inhabited my memory over these years. That is to say, it was, on the whole, extremely pleasing to see her again.\n\nFor the first twenty or so minutes, I would say we exchanged the sort of remarks strangers might; she inquired politely about my journey thus far, how I was enjoying my holiday, which towns and landmarks I had visited and so on. As we continued to talk, I must say I thought I began to notice further, more subtle changes which the years had wrought on her. For instance, Miss Kenton appeared, somehow, slower. It is possible this was simply the calmness that comes with age, and I did try hard for some time to see it as such. But I could not escape the feeling that what I was really seeing was a weariness with life; the spark which had once made her such a lively, and at times volatile person seemed now to have gone. In fact, every now and then, when she was not speaking, when her face was in repose, I thought I glimpsed something like sadness in her expression. But then again, I may well have been mistaken about this.\n\nAfter a little while, what little awkwardness as existed during the initial minutes of our meeting had dissipated completely, and our conversation took a more personal turn. We spent some time reminiscing about various persons from the past, or else exchanging any news we had concerning them, and this was, I must say, most enjoyable. But it was not so much the content of our conversation as the little smiles she gave at the end of utterances, her small ironic inflexions here and there, certain gestures with her shoulders or her hands, which began to recall unmistakably the rhythms and habits of our conversations from all those years ago.\n\nIt was around this point, also, that I was able to establish some facts concerning her present circumstances. For instance, I learnt that her marriage was not in quite as parlous a state as might have been supposed from her letter; that although she had indeed left her home for a period of four or five days – during which time the letter I received had been composed – she had returned home and Mr Benn had been very pleased to have her back. 'It's just as well one of us is sensible about these things,' she said with a smile.\n\nI am aware, of course, that such matters were hardly any of my business, and I should make clear I would not have dreamt of prying into these areas were it not that I did have, you might recall, important professional reasons for doing so; that is to say, in respect to the present staffing problems at Darlington Hall. In any case, Miss Kenton did not seem to mind at all confiding in me over these matters and I took this as a pleasing testimony to the strength of the close working relationship we had once had.\n\nFor a little while after that, I recall, Miss Kenton went on talking more generally about her husband, who is to retire soon, a little early on account of poor health, and of her daughter, who is now married and expecting a child in the autumn. In fact, Miss Kenton gave me her daughter's address in Dorset, and I must say, I was rather flattered to see how keen she was that I call in on my return journey. Although I explained that it was unlikely I would pass through that part of Dorset, Miss Kenton continued to press me, saying: 'Catherine's heard all about you, Mr Stevens. She'd be so thrilled to meet you.'\n\nFor my own part, I tried to describe to her as best I could the Darlington Hall of today. I attempted to convey to her what a genial employer Mr Farraday is; and I described the changes to the house itself, the alterations and the dust-sheetings, as well as the present staffing arrangements. Miss Kenton, I thought, became visibly happier when I talked about the house and soon we were recollecting together various old memories, frequently laughing over them.\n\nOnly once do I recall our touching upon Lord Darlington. We had been enjoying some recollection or other concerning the young Mr Cardinal, so that I was then obliged to go on to inform Miss Kenton of the gentleman's being killed in Belgium during the war. And I had gone on to say: 'Of course, his lordship was very fond of Mr Cardinal and took it very badly.'\n\nI did not wish to spoil the pleasant atmosphere with unhappy talk, so tried to leave the topic again almost immediately. But as I had feared, Miss Kenton had read of the unsuccessful libel action, and inevitably, took the opportunity to probe me a little. As I recall, I rather resisted being drawn in, though in the end I did say to her:\n\n'The fact is, Mrs Benn, throughout the war, some truly terrible things had been said about his lordship – and by that newspaper in particular. He bore it all while the country remained in peril, but once the war was over, and the insinuations simply continued, well, his lordship saw no reason to go on suffering in silence. It's easy enough to see now, perhaps, all the dangers of going to court just at that time, what with the climate as it was. But there you are. His lordship sincerely believed he would get justice. Instead, of course, the newspaper simply increased its circulation. And his lordship's good name was destroyed for ever. Really, Mrs Benn, afterwards, well, his lordship was virtually an invalid. And the house became so quiet. I would take him tea in the drawing room and, well … It really was most tragic to see.'\n\n'I'm very sorry, Mr Stevens. I had no idea things had been so bad.'\n\n'Oh yes, Mrs Benn. But enough of this. I know you remember Darlington Hall in the days when there were great gatherings, when it was filled with distinguished visitors. Now that's the way his lordship deserves to be remembered.'\n\nAs I say, that was the only time we mentioned Lord Darlington. Predominantly, we concerned ourselves with very happy memories, and those two hours we spent together in the tea lounge were, I would say, extremely pleasant ones. I seem to remember various other guests coming in while we were talking, sitting down for a few moments and leaving again, but they did not distract us in any way at all. Indeed, one could hardly believe two whole hours had elapsed when Miss Kenton looked up at the clock on the mantelshelf and said she would have to be returning home. On establishing that she would have to walk in the rain to a bus stop a little way out of the village, I insisted on running her there in the Ford, and so it was that after obtaining an umbrella from the reception desk, we stepped outside together.\n\nLarge puddles had formed on the ground around where I had left the Ford, obliging me to assist Miss Kenton a little to allow her to reach the passenger door. Soon, however, we were motoring down the village high street, and then the shops had gone and we found ourselves in open country. Miss Kenton, who had been sitting quietly watching the passing view, turned to me at this point, saying:\n\n'What are you smiling to yourself about like that, Mr Stevens?'\n\n'Oh … You must excuse me, Mrs Benn, but I was just recalling certain things you wrote in your letter. I was a little worried when I read them, but I see now I had little reason to be.'\n\n'Oh? What things in particular do you mean, Mr Stevens?'\n\n'Oh, nothing in particular, Mrs Benn.'\n\n'Oh, Mr Stevens, you really must tell me.'\n\n'Well, for instance, Mrs Benn,' I said with a laugh, 'at one point in your letter, you write – now let me see – \"the rest of my life stretches out like an emptiness before me.\" Some words to that effect.'\n\n'Really, Mr Stevens,' she said, also laughing a little. 'I couldn't have written any such thing.'\n\n'Oh, I assure you you did, Mrs Benn. I recall it very clearly.'\n\n'Oh dear. Well, perhaps there are some days when I feel like that. But they pass quickly enough. Let me assure you, Mr Stevens, my life does not stretch out emptily before me. For one thing, we are looking forward to the grandchild. The first of a few perhaps.'\n\n'Yes, indeed. That will be splendid for you.'\n\nWe drove on quietly for a few further moments. Then Miss Kenton said:\n\n'And what about you, Mr Stevens? What does the future hold for you back at Darlington Hall?'\n\n'Well, whatever awaits me, Mrs Benn, I know I'm not awaited by emptiness. If only I were. But oh no, there's work, work and more work.'\n\nWe both laughed at this. Then Miss Kenton pointed out a bus shelter visible further up the road. As we approached it, she said:\n\n'Will you wait with me, Mr Stevens? The bus will only be a few minutes.'\n\nThe rain was still falling steadily as we got out of the car and hurried towards the shelter. This latter – a stone construct complete with a tiled roof – looked very sturdy, as indeed it needed to be, standing as it did in a highly exposed position against a background of empty fields. Inside, the paint was peeling everywhere, but the place was clean enough. Miss Kenton seated herself on the bench provided, while I remained on my feet where I could command a view of the approaching bus. On the other side of the road, all I could see were more farm fields; a line of telegraph poles led my eye over them into the far distance.\n\nAfter we had been waiting in silence for a few minutes, I finally brought myself to say:\n\n'Excuse me, Mrs Benn. But the fact is we may not meet again for a long time. I wonder if you would perhaps permit me to ask you something of a rather personal order. It is something that has been troubling me for some time.'\n\n'Certainly, Mr Stevens. We are old friends, after all.'\n\n'Indeed, as you say, we are old friends. I simply wished to ask you, Mrs Benn. Please do not reply if you feel you shouldn't. But the fact is, the letters I have had from you over the years, and in particular the last letter, have tended to suggest that you are – how might one put it? – rather unhappy. I simply wondered if you were being ill-treated in some way. Forgive me, but as I say, it is something that has worried me for some time. I would feel foolish had I come all this way and seen you and not at least asked you.'\n\n'Mr Stevens, there's no need to be so embarrassed. We're old friends, after all, are we not? In fact, I'm very touched you should be so concerned. And I can put your mind at rest on this matter absolutely. My husband does not mistreat me at all in any way. He is not in the least a cruel or ill-tempered man.'\n\n'I must say, Mrs Benn, that does take a load from my mind.'\n\nI leaned forward into the rain, looking for signs of the bus.\n\n'I can see you are not very satisfied, Mr Stevens,' Miss Kenton said. 'Do you not believe me?'\n\n'Oh, it's not that, Mrs Benn, not that at all. It's just that the fact remains, you do not seem to have been happy over the years. That is to say – forgive me – you have taken it on yourself to leave your husband on a number of occasions. If he does not mistreat you, then, well … one is rather mystified as to the cause of your unhappiness.'\n\nI looked out into the drizzle again. Eventually, I heard Miss Kenton say behind me: 'Mr Stevens, how can I explain? I hardly know myself why I do such things. But it's true, I've left three times now.' She paused a moment, during which time I continued to gaze out towards the fields on the other side of the road. Then she said: 'I suppose, Mr Stevens, you're asking whether or not I love my husband.'\n\n'Really, Mrs Benn, I would hardly presume …'\n\n'I feel I should answer you, Mr Stevens. As you say, we may not meet again for many years. Yes, I do love my husband. I didn't at first. I didn't at first for a long time. When I left Darlington Hall all those years ago, I never realized I was really, truly leaving. I believe I thought of it as simply another ruse, Mr Stevens, to annoy you. It was a shock to come out here and find myself married. For a long time, I was very unhappy, very unhappy indeed. But then year after year went by, there was the war, Catherine grew up, and one day I realized I loved my husband. You spend so much time with someone, you find you get used to him. He's a kind, steady man, and yes, Mr Stevens, I've grown to love him.'\n\nMiss Kenton fell silent again for a moment. Then she went on:\n\n'But that doesn't mean to say, of course, there aren't occasions now and then – extremely desolate occasions – when you think to yourself: \"What a terrible mistake I've made with my life.\" And you get to thinking about a different life, a better life you might have had. For instance, I get to thinking about a life I may have had with you, Mr Stevens. And I suppose that's when I get angry over some trivial little thing and leave. But each time I do so, I realize before long – my rightful place is with my husband. After all, there's no turning back the clock now. One can't be forever dwelling on what might have been. One should realize one has as good as most, perhaps better, and be grateful.'\n\nI do not think I responded immediately, for it took me a moment or two to fully digest these words of Miss Kenton. Moreover, as you might appreciate, their implications were such as to provoke a certain degree of sorrow within me. Indeed – why should I not admit it? – at that moment, my heart was breaking. Before long, however, I turned to her and said with a smile:\n\n'You're very correct, Mrs Benn. As you say, it is too late to turn back the clock. Indeed, I would not be able to rest if I thought such ideas were the cause of unhappiness for you and your husband. We must each of us, as you point out, be grateful for what we do have. And from what you tell me, Mrs Benn, you have reason to be contented. In fact, I would venture, what with Mr Benn retiring, and with grandchildren on the way, that you and Mr Benn have some extremely happy years before you. You really mustn't let any more foolish ideas come between yourself and the happiness you deserve.'\n\n'Of course, you're right, Mr Stevens. You're so kind.'\n\n'Ah, Mrs Benn, that appears to be the bus coming now.'\n\nI stepped outside and signalled, while Miss Kenton rose and came to the edge of the shelter. Only as the bus pulled up did I glance at Miss Kenton and perceive that her eyes had filled with tears. I smiled and said:\n\n'Now, Mrs Benn, you must take good care of yourself. Many say retirement is the best part of life for a married couple. You must do all you can to make these years happy ones for yourself and your husband. We may never meet again, Mrs Benn, so I would ask you to take good heed of what I am saying.'\n\n'I will, Mr Stevens, thank you. And thank you for the lift. It was so very kind of you. It was so nice to see you again.'\n\n'It was a great pleasure to see you again, Mrs Benn.'"
+      "title": "The Remains of the Day by Kazuo Ishiguro",
+      "content": "It is now fully two days since my meeting with Miss Kenton in the tea lounge of the Rose Garden Hotel in Little Compton...",
+      "summary": "Excerpt from Ishiguro's novel where Stevens, an emotionally repressed butler, meets Miss Kenton after decades apart. She confesses she sometimes thinks about 'a life I may have had with you.' Stevens' heart breaks but he smiles and says the right thing. A devastating portrait of regret, duty, and what goes unsaid.",
+      "themes": ["regret", "love", "duty", "repression", "time", "what-might-have-been"]
     },
     "matches": [
       {
-        "name": "Luna Ruan",
-        "reason": "You both brought texts about what we want from life and the weight of time passing—Carver's 'beloved on the earth' and Stevens' breaking heart.",
-        "question": "What would you say to the version of yourself from ten years ago?"
-      },
-      {
-        "name": "Rachel Luo",
-        "reason": "Wigner's wonder at mathematics meets Parfit's puzzle of identity—you both chose texts about things that shouldn't work but mysteriously do.",
-        "question": "What's something in your life that feels unreasonably effective, that you can't quite explain?"
+        "name": "Garland Gay",
+        "reason": "Wigner's paper is about something that shouldn't work but does—math describing reality. The eel article is about something that resisted understanding for centuries. You're both drawn to mysteries that stay mysterious.",
+        "question": "Wigner called mathematics 'unreasonably effective.' What in your life has been unreasonably effective—something that works but you can't explain why?"
       },
       {
         "name": "Freia Lobo",
-        "reason": "Stevens' quiet regret and the existential stakes of friendship—you both know that connection is something you can miss if you're not careful.",
-        "question": "Have you ever realized too late what someone meant to you?"
+        "reason": "Stevens and Miss Kenton's scene is about decades of 'untelevised time'—the unglamorous dailiness that Freia's friendship piece says real connection requires. Both know that what matters often goes unsaid.",
+        "question": "Stevens says 'my heart was breaking' but smiles and says the right thing. When have you done that?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Carver asks 'did you get what you wanted from this life?' Stevens would have to answer 'I'm not sure.' Both texts sit with the weight of a life's choices.",
+        "question": "Miss Kenton says 'one can't be forever dwelling on what might have been.' Do you believe that?"
+      }
+    ]
+  },
+  {
+    "name": "Jaclyn Chan",
+    "photo": "photos/jaclyn.webp",
+    "tagline": "keen noticer",
+    "bio": "straightupjac.xyz",
+    "bioUrl": "https://www.straightupjac.xyz/",
+    "intellectual": {
+      "title": "On Reading Proust's In Search of Lost Time",
+      "content": "https://nabeelqu.substack.com/p/on-reading-prousts-in-search-of-lost",
+      "summary": "Essay on Proust covering: involuntary memory (sensory experiences unlock deeper truth than conscious recall); mimetic desire (we want things because others want them, from René Girard); the sacrifices of artistry (Proust treated people as material); precision through metaphor ('extreme precision paradoxically requires abundant metaphor'). Reading Proust as transformation: gaining 'thoughts you were not capable of forming.'",
+      "themes": ["memory", "attention", "desire", "art", "consciousness", "reading", "Proust"]
+    },
+    "emotional": {
+      "title": "Sometimes the reason you can't find people you resonate with is because you misread the ones you meet",
+      "content": "https://www.henrikkarlsson.xyz/p/friends-missed",
+      "summary": "Henrik Karlsson essay about how we misjudge people by seeing them in limited contexts. He initially dismissed his friend Torbjörn as just 'funny' before recognizing his core trait was responsiveness. Argues for Aristotle's 'friendships of virtue' over utility. Key insight: we habitually underestimate people; treat them as 'unfinished.'",
+      "themes": ["friendship", "perception", "judgment", "virtue", "attention", "context"]
+    },
+    "matches": [
+      {
+        "name": "Freia Lobo",
+        "reason": "Your Karlsson piece argues we habitually underestimate people by seeing them in limited contexts. Freia's piece argues friendship requires 'trading masks' and strategic vulnerability. Both are about how hard it is to truly see someone.",
+        "question": "Karlsson says we need to treat people as 'unfinished.' Who have you revised your judgment of recently?"
+      },
+      {
+        "name": "Alice Li",
+        "reason": "Your Proust piece argues that reading expands consciousness—we gain 'thoughts we were not capable of forming.' Alice's friction piece argues we need boredom and discomfort to feel alive. Both are about attention as transformation.",
+        "question": "Proust says involuntary memory unlocks deeper truth than conscious recollection. What's a sensory experience that unlocks something for you?"
+      },
+      {
+        "name": "Kiera Wolfe",
+        "reason": "Your Proust piece emphasizes precision through metaphor—capturing fine-grained experience. Kiera's Egan piece uses PowerPoint slides to capture pauses in music. Both are about finding new forms for elusive experiences.",
+        "question": "The Proust essay argues that 'extreme precision paradoxically requires abundant metaphor.' What's something you struggle to describe precisely?"
+      }
+    ]
+  },
+  {
+    "name": "Kiera Wolfe",
+    "photo": "photos/kiera.jpg",
+    "tagline": "prose witch",
+    "bio": "mudroommag.com/masthead",
+    "bioUrl": "https://www.mudroommag.com/masthead",
+    "intellectual": {
+      "title": "Jake Brasch's \"The Reservoir\"",
+      "content": "https://www.scribd.com/document/703699085/THE-RESERVOIR",
+      "summary": "Short fiction by Jake Brasch.",
+      "themes": ["fiction", "craft"]
+    },
+    "emotional": {
+      "title": "Jennifer Egan's \"Great Rock and Roll Pauses by Alison Blake\"",
+      "content": "https://jenniferegan.com/artifacts/great-rock-and-roll-pauses/",
+      "summary": "A chapter from Jennifer Egan's 'A Visit from the Goon Squad' presented as a PowerPoint made by a 12-year-old girl about pauses in rock songs. Experimental form that captures family dynamics, autism, music, and time through slides. About what gets lost in translation and what pauses let in.",
+      "themes": ["form", "music", "pauses", "family", "time", "experimental", "silence"]
+    },
+    "matches": [
+      {
+        "name": "Jaclyn Chan",
+        "reason": "You both chose pieces about form and attention—Egan's PowerPoint chapter captures pauses in music; Jaclyn's Proust piece argues reading trains us to notice fine-grained experience.",
+        "question": "Why do pauses matter? What do they let in?"
+      },
+      {
+        "name": "Jackie Fu",
+        "reason": "You both chose fiction that experiments with form—novels that care about how stories are told, not just what happens.",
+        "question": "What's a book whose form surprised you as much as its content?"
+      },
+      {
+        "name": "Alice Li",
+        "reason": "Egan's piece is about pauses—the silence between notes. Alice's friction piece argues we need boredom and gaps to feel alive. Both find meaning in the spaces between.",
+        "question": "What's a gap or pause that turned out to be the most important part?"
       }
     ]
   },
   {
     "name": "Luna Ruan",
     "photo": "photos/luna.jpg",
+    "tagline": "tender collector of poems",
     "bio": "@mooncakewrites",
     "bioUrl": "https://x.com/mooncakewrites",
     "intellectual": {
       "title": "Late Fragment",
-      "content": "A poem by Raymond Carver, the last poem he wrote before he died on his deathbed.\n\nAnd did you get what\nyou wanted from this life, even so?\nI did.\nAnd what did you want?\nTo call myself beloved, to feel myself\nbeloved on the earth."
+      "content": "A poem by Raymond Carver, the last poem he wrote before he died on his deathbed.\n\nAnd did you get what\nyou wanted from this life, even so?\nI did.\nAnd what did you want?\nTo call myself beloved, to feel myself\nbeloved on the earth.",
+      "summary": "Raymond Carver's final poem, written on his deathbed. A simple question—did you get what you wanted?—answered with the desire to feel beloved. Profound in its directness about what matters.",
+      "themes": ["mortality", "desire", "love", "meaning", "life", "poetry"]
     },
     "emotional": {
       "title": "To the young who want to die",
-      "content": "https://www.themarginalian.org/2022/07/22/to-the-young-who-want-to-die-gwendolyn-brooks/"
+      "content": "https://www.themarginalian.org/2022/07/22/to-the-young-who-want-to-die-gwendolyn-brooks/",
+      "summary": "Gwendolyn Brooks poem, written after a young waiter responded to her 'Good morning!' with tears of gratitude. A tender address to those in pain.",
+      "themes": ["mortality", "hope", "tenderness", "youth", "despair", "poetry"]
     },
     "matches": [
       {
         "name": "Jackie Luo",
-        "reason": "Raymond Carver's question—did you get what you wanted?—echoes through Stevens' quiet devastation. You both hold space for what's left unsaid.",
-        "question": "What do you want from this next year of life?"
+        "reason": "Carver's question—'did you get what you wanted from this life?'—echoes through Stevens' quiet devastation in the Ishiguro. Both texts sit with the weight of choices made and unmade.",
+        "question": "Carver answers 'I did'—he got what he wanted. What would your answer be, even so?"
       },
       {
         "name": "Freia Lobo",
-        "reason": "You both brought pieces about mortality and tenderness—the urgency of being seen, of saying what matters before it's too late.",
-        "question": "What would you want someone to say about you when you're gone?"
+        "reason": "Your texts are about mortality and tenderness—the urgency of being seen before it's too late. Freia's obituaries and friendship piece share that urgency.",
+        "question": "Carver wanted 'to feel myself beloved on the earth.' What do you want?"
       },
       {
-        "name": "Rachel Luo",
-        "reason": "You both chose texts about what makes a life meaningful—and whether there's a script we're supposed to follow.",
-        "question": "When did you stop believing in the script, if you ever did?"
+        "name": "Jackie Fu",
+        "reason": "Carver's poem is about desire—what we really want from life. Jackie Fu's texts are about desire too—rivalry, romance, the pursuit of something.",
+        "question": "What's the difference between wanting something and wanting to be the kind of person who has it?"
       }
     ]
   },
   {
     "name": "Rachel Luo",
     "photo": "photos/rachel.jpg",
+    "tagline": "homegrown artisan",
     "bio": "instagram.com/rachelhluo",
     "bioUrl": "https://instagram.com/rachelhluo",
     "intellectual": {
       "title": "Katabasis by RF Kuang",
-      "content": "That summer, the philosopher Derek Parfit published the very controversial Reasons and Persons, and for a while it was all that anyone at Cambridge or Oxford would talk about. Alice read it with great interest. In fact, it helped her sort through much of her confusion. Reasons and Persons argues for a reductionist account of personal identity: that is to say, no special essence of personhood that remains stable across one's lifetime. Using a number of thought experiments involving brain transplants, brain divisions, and tele-transportation, Parfit argued that the qualities which we think define essential personhood—psychological connectedness, for instance—do not actually ground any deeper fact. We might share the same cells, bodily continuity, and memories as previous iterations of ourselves. But that is all. There is no further fact of the matter—no essential us hovering like a specter. We bear the same relationship to the version of ourselves from ten years ago as we might to a sibling."
+      "content": "That summer, the philosopher Derek Parfit published the very controversial Reasons and Persons, and for a while it was all that anyone at Cambridge or Oxford would talk about. Alice read it with great interest. In fact, it helped her sort through much of her confusion. Reasons and Persons argues for a reductionist account of personal identity: that is to say, no special essence of personhood that remains stable across one's lifetime. Using a number of thought experiments involving brain transplants, brain divisions, and tele-transportation, Parfit argued that the qualities which we think define essential personhood—psychological connectedness, for instance—do not actually ground any deeper fact. We might share the same cells, bodily continuity, and memories as previous iterations of ourselves. But that is all. There is no further fact of the matter—no essential us hovering like a specter. We bear the same relationship to the version of ourselves from ten years ago as we might to a sibling.",
+      "summary": "Excerpt from RF Kuang's novel explaining Parfit's philosophy of personal identity. Key argument: there's no essential 'you' that persists over time—no 'further fact' beyond cells, memories, continuity. We're as related to our past selves as to siblings. A reductionist view that dissolves the myth of stable selfhood.",
+      "themes": ["identity", "philosophy", "self", "time", "continuity", "Parfit"]
     },
     "emotional": {
       "title": "Culture Study, Big No Kids Energy Pastor Travis Edition",
-      "content": "I hope that others see that there is an amazing diversity to how we do life as human beings. That diversity in how we do life can make communities stronger and more resilient to the challenges we face. And that diversity in how we do life can unlock joys and blessings that we may have never realized. I don't believe there is a \"script\" in life we need to follow to reach our fullest potential."
+      "content": "I hope that others see that there is an amazing diversity to how we do life as human beings. That diversity in how we do life can make communities stronger and more resilient to the challenges we face. And that diversity in how we do life can unlock joys and blessings that we may have never realized. I don't believe there is a \"script\" in life we need to follow to reach our fullest potential.",
+      "summary": "Quote from a pastor about rejecting 'scripts' for how to live. Celebrates diversity in how we do life—different paths can unlock unexpected joys.",
+      "themes": ["scripts", "expectations", "diversity", "life-paths", "freedom", "potential"]
     },
     "matches": [
       {
+        "name": "Garland Gay",
+        "reason": "Parfit argues there's no essential 'you' over time. Gladwell argues character is contextual, not fixed. You're both drawn to ideas that dissolve the myth of a stable self.",
+        "question": "Parfit says we're like siblings to our past selves. What would you say to the version of yourself from ten years ago?"
+      },
+      {
+        "name": "Alice Li",
+        "reason": "Your Pastor Travis quote rejects 'scripts' for how to live. Alice's Burkeman quote warns against 'becoming the kind of person who does X.' Both push back against identity as project.",
+        "question": "What script did you abandon? What did you find instead?"
+      },
+      {
         "name": "Luna Ruan",
-        "reason": "You both submitted texts wrestling with what makes a life count—and the freedom that comes from letting go of prescribed paths.",
-        "question": "What's a choice you made that felt like leaving the script behind?"
+        "reason": "Your Pastor Travis quote rejects 'scripts' for how to live. Luna's Carver poem asks what you really want. Both push back against inherited expectations.",
+        "question": "What do you want that no script told you to want?"
+      }
+    ]
+  },
+  {
+    "name": "Shii Ann Huang",
+    "photo": "photos/shiiann.jpg",
+    "tagline": "eldest sage",
+    "bio": "the oldest and wisest",
+    "intellectual": {
+      "title": "Why Buddhism Is True",
+      "content": "https://en.wikipedia.org/wiki/Why_Buddhism_Is_True",
+      "summary": "Book by Robert Wright arguing that Buddhist insights about the self and suffering align with modern evolutionary psychology and cognitive science. The 'self' is largely a construction; our desires are often not truly ours but products of evolution. Meditation as a tool for seeing through these illusions.",
+      "themes": ["Buddhism", "self", "illusion", "psychology", "meditation", "desire", "evolution"]
+    },
+    "emotional": {
+      "title": "The Princess and the Magic Birds, Fuyuhiko Takata",
+      "content": "https://vimeo.com/1134667640",
+      "summary": "Video work by Fuyuhiko Takata.",
+      "themes": ["video", "art"]
+    },
+    "matches": [
+      {
+        "name": "Garland Gay",
+        "reason": "Buddhism argues the self is largely illusion; Gladwell argues character is contextual. You're both interested in how we're less solid than we think.",
+        "question": "Robert Wright argues Buddhism's insights align with evolutionary psychology. What's a Buddhist idea that changed how you see yourself?"
       },
       {
-        "name": "Jackie Luo",
-        "reason": "Parfit's puzzle of identity meets Wigner's wonder at mathematics—you both love ideas that unsettle what we think we know.",
-        "question": "What belief did you used to hold that you've completely abandoned?"
+        "name": "Rachel Luo",
+        "reason": "Buddhism says the self is constructed. Parfit says personal identity has no 'further fact.' Both find something liberating in dissolving the myth of a stable self.",
+        "question": "What have you let go of that you once thought was essential to who you are?"
       },
       {
-        "name": "Freia Lobo",
-        "reason": "You're both interested in how we build connection and identity without stable ground—friendship, selfhood, all of it contingent.",
-        "question": "If we're different people over time, what makes a friendship last?"
+        "name": "Luna Ruan",
+        "reason": "Buddhism asks what's worth clinging to. Carver asks what you really want. Both are about desire, attachment, and what matters.",
+        "question": "What do you still want that you probably shouldn't?"
       }
     ]
   }

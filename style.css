@@ -103,11 +103,33 @@ body {
 }
 
 .welcome {
-  max-width: 540px;
-  margin: 0 auto;
-  font-size: 1.1rem;
+  max-width: 440px;
+  margin: 0 auto 1.5rem;
+  font-size: 0.95rem;
   color: var(--ink-light);
   font-style: italic;
+}
+
+.instructions {
+  max-width: 440px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: var(--ink);
+  text-align: left;
+}
+
+.instructions p {
+  margin-bottom: 0.5rem;
+}
+
+.instructions p:last-child {
+  margin-bottom: 0;
+}
+
+.instruction-num {
+  font-family: 'garamond-premier-pro-display', Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
 }
 
 /* Directory */
@@ -136,7 +158,7 @@ body {
 
 /* Guest Card */
 .guest-card {
-  background: white;
+  background: #fdfcfa;
   border: 1px solid var(--cream-dark);
   padding: 2rem;
   position: relative;
@@ -182,19 +204,10 @@ body {
   margin-bottom: 0.25rem;
 }
 
-.guest-bio {
-  font-size: 0.95rem;
+.guest-tagline {
+  font-size: 0.9rem;
   color: var(--ink-light);
   font-style: italic;
-}
-
-.guest-bio a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.guest-bio a:hover {
-  color: var(--ember);
 }
 
 /* Texts */
@@ -244,9 +257,14 @@ body {
   color: var(--ember);
 }
 
-/* Matches Accordion */
+.external-icon {
+  font-size: 0.7em;
+  margin-left: 0.3em;
+  color: var(--smoke);
+}
+
+/* Matches Button */
 .matches {
-  background: white;
   margin: 0 -2rem -2rem;
   border-top: 1px solid var(--cream-dark);
 }
@@ -259,7 +277,7 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 0.7rem;
   text-transform: uppercase;
@@ -270,59 +288,6 @@ body {
 
 .matches-toggle:hover {
   color: var(--ink-light);
-}
-
-.matches-toggle-icon {
-  font-size: 1rem;
-  transition: transform 0.2s;
-}
-
-.matches.open .matches-toggle-icon {
-  transform: rotate(180deg);
-}
-
-.matches-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  padding: 0 2rem;
-}
-
-.matches.open .matches-content {
-  max-height: 500px;
-  padding: 0 2rem 1.5rem;
-}
-
-.match-item {
-  margin-bottom: 1rem;
-}
-
-.match-item:last-child {
-  margin-bottom: 0;
-}
-
-.match-name {
-  font-weight: 500;
-  font-size: 1.05rem;
-}
-
-.match-reason {
-  font-size: 0.95rem;
-  color: var(--ink-light);
-  font-style: italic;
-  margin-top: 0.15rem;
-}
-
-.match-question {
-  font-size: 0.9rem;
-  color: var(--ink);
-  margin-top: 0.25rem;
-}
-
-.match-question::before {
-  content: "Ask: ";
-  font-style: italic;
-  color: var(--smoke);
 }
 
 /* Modal */
@@ -457,14 +422,83 @@ body {
   white-space: pre-wrap;
 }
 
+.modal-matches {
+  display: none;
+}
+
+.modal-match-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--cream-dark);
+}
+
+.modal-match-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.modal-match-name {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-match-reason {
+  font-size: 1rem;
+  color: var(--ink-light);
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.modal-match-question {
+  font-size: 1rem;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.modal-match-question::before {
+  content: "Ask: ";
+  font-style: italic;
+  color: var(--smoke);
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .container {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .header {
+    margin-bottom: 2.5rem;
+  }
+
+  .cigarette-holder {
+    width: 80px;
+    height: 88px;
+    margin-bottom: 1rem;
   }
 
   .title {
     font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .welcome {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .instructions {
+    font-size: 1rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--cream-dark);
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .instructions p {
+    margin-bottom: 0.4rem;
   }
 
   .guest-card {
@@ -475,9 +509,14 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 1rem;
   }
 
   .matches {
     margin: 0 -1.5rem -1.5rem;
+  }
+
+  .modal-match-name {
+    font-size: 1.15rem;
   }
 }
