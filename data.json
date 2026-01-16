@@ -28,9 +28,9 @@
         "question": "Burkeman says we trap ourselves trying to become 'the kind of person who does X.' What identity have you let go of?"
       },
       {
-        "name": "Kiera Wolfe",
-        "reason": "You both chose pieces about form and attention—friction-maxxing is about tolerating boredom; Egan's PowerPoint chapter is about pauses in music. Both suggest meaning lives in the gaps.",
-        "question": "What's a pause or gap in your life that turned out to be important?"
+        "name": "Juan Tejada",
+        "reason": "You've both sunk deep into games with satisfying systems—you with Slay the Spire, Juan with D&D encounter design. Both find joy in understanding mechanics and making them sing.",
+        "question": "Juan's video says 'you are the author of your game.' What game (literal or metaphorical) have you learned to author?"
       }
     ]
   },
@@ -144,9 +144,9 @@
         "question": "The eel article is about a creature that resisted scientific understanding for centuries. What about yourself resists your own understanding?"
       },
       {
-        "name": "Shii Ann Huang",
-        "reason": "Your piece challenges the idea of a stable character. Shii Ann's Buddhism book argues the self is largely illusion. Both suggest we're less solid than we think.",
-        "question": "Buddhism says the self is constructed. Gladwell says character is contextual. Do you find that liberating or unsettling?"
+        "name": "Juan Tejada",
+        "reason": "Your Gladwell piece argues we're all contradictions depending on context. Juan's DFW story is about a man who can't stop performing—even his confession of fraudulence feels like another performance. Both dissolve the idea of authentic selfhood.",
+        "question": "Good Old Neon's narrator says even recognizing his fraudulence became another fraud. When does self-awareness become its own trap?"
       }
     ]
   },
@@ -255,6 +255,41 @@
         "name": "Kiera Wolfe",
         "reason": "Your Proust piece emphasizes precision through metaphor—capturing fine-grained experience. Kiera's Egan piece uses PowerPoint slides to capture pauses in music. Both are about finding new forms for elusive experiences.",
         "question": "The Proust essay argues that 'extreme precision paradoxically requires abundant metaphor.' What's something you struggle to describe precisely?"
+      }
+    ]
+  },
+  {
+    "name": "Juan Tejada",
+    "photo": "photos/juan.jpg",
+    "tagline": "dungeon master philosopher",
+    "bio": "Software engineer turned engineering manager at Clay. Grew up in Colombia, moved to the US ten years ago. Very into D&D, video games, and Yu-Gi-Oh—generally a nerd. Also loves traveling back to Colombia, scuba diving, salsa dancing, and Bad Bunny.",
+    "intellectual": {
+      "title": "CR is stupid. Let's fix it.",
+      "content": "https://youtu.be/DtJoEYpsIHc?si=SD1e0G8GctzfBaBy",
+      "summary": "D&D video essay by Daði of Mystic Arts on why the challenge rating system isn't as broken as people say—you just need to understand it. Key insights: modules make mistakes (the Lost Mines goblin ambush is a party-killer), you are the author of your game, and encounter design doesn't stop at initiative. Offers three 'dials' for adjusting mid-combat: troop numbers, field promotions, and sleight of hand with hit points.",
+      "themes": ["D&D", "game design", "systems", "improvisation", "problem-solving", "creativity"]
+    },
+    "emotional": {
+      "title": "Good Old Neon by David Foster Wallace",
+      "content": "https://sdavidmiller.com/octo/files/no_google2/GoodOldNeon.pdf",
+      "summary": "DFW story narrated by a man who considers himself a 'fraud'—someone who only creates impressions to be admired. He recounts therapy sessions where his analyst says a true fraud couldn't recognize his own fraudulence, but the narrator predicted this response, proving (to himself) that he can manipulate even that. A devastating exploration of authenticity, the gap between inner life and outer performance, and whether genuine connection is possible when you're always performing.",
+      "themes": ["authenticity", "fraudulence", "self-awareness", "performance", "connection", "mortality"]
+    },
+    "matches": [
+      {
+        "name": "Garland Gay",
+        "reason": "Good Old Neon is about the impossibility of escaping performance—even confessing fraudulence feels like another fraud. Garland's Gladwell piece argues character is contextual, not fixed. Both question whether there's a 'real' self underneath.",
+        "question": "The narrator can't stop performing even in therapy. Where do you feel most like yourself vs. most like you're performing?"
+      },
+      {
+        "name": "Alice Li",
+        "reason": "You both think in systems—your D&D video is about understanding encounter math, Alice sank hundreds of hours into Slay the Spire's engine-building. Both find satisfaction in mechanics that click.",
+        "question": "Your video argues 'you are the author of your game.' What's a system you've learned to bend to your will?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Good Old Neon ends with 'David Wallace' pondering what led Neal to take his life. Luna chose Carver's deathbed poem and Brooks' address to 'the young who want to die.' Both sit with mortality and what we owe each other.",
+        "question": "DFW's narrator wanted to feel something real. Carver wanted to feel beloved. What do you want?"
       }
     ]
   },
