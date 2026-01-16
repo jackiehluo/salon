@@ -5,18 +5,20 @@
 }
 
 :root {
-  --cream: #f5f2eb;
-  --cream-dark: #e8e4d9;
-  --ink: #1a1a1a;
-  --ink-light: #4a4a4a;
+  --bg: #0a0a0a;
+  --bg-card: #151515;
+  --bg-elevated: #1a1a1a;
+  --text: #e8e4d9;
+  --text-muted: #a0998a;
+  --border: #2a2a2a;
   --ember: #d4582a;
-  --smoke: #999;
+  --smoke: #666;
 }
 
 body {
   font-family: 'garamond-premier-pro', Georgia, serif;
-  background-color: var(--cream);
-  color: var(--ink);
+  background-color: var(--bg);
+  color: var(--text);
   min-height: 100vh;
   line-height: 1.6;
 }
@@ -106,7 +108,7 @@ body {
   max-width: 440px;
   margin: 0 auto 1.5rem;
   font-size: 0.95rem;
-  color: var(--ink-light);
+  color: var(--text-muted);
   font-style: italic;
 }
 
@@ -114,7 +116,7 @@ body {
   max-width: 440px;
   margin: 0 auto;
   font-size: 1rem;
-  color: var(--ink);
+  color: var(--text);
   text-align: left;
 }
 
@@ -138,7 +140,7 @@ body {
 }
 
 .join-link a {
-  color: var(--ink-light);
+  color: var(--text-muted);
   text-decoration: none;
 }
 
@@ -172,8 +174,8 @@ body {
 
 /* Guest Card */
 .guest-card {
-  background: #fdfcfa;
-  border: 1px solid var(--cream-dark);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   padding: 2rem;
   position: relative;
 }
@@ -190,7 +192,7 @@ body {
   height: 72px;
   border-radius: 50%;
   object-fit: cover;
-  background-color: var(--cream-dark);
+  background-color: var(--border);
   flex-shrink: 0;
 }
 
@@ -198,8 +200,8 @@ body {
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background-color: var(--ink);
-  color: var(--cream);
+  background-color: var(--text);
+  color: var(--bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,7 +222,7 @@ body {
 
 .guest-tagline {
   font-size: 0.9rem;
-  color: var(--ink-light);
+  color: var(--text-muted);
   font-style: italic;
 }
 
@@ -239,7 +241,7 @@ body {
 }
 
 .text-item[data-type="intellectual"]:has(+ [data-type="emotional"]) {
-  border-bottom: 1px solid var(--cream-dark);
+  border-bottom: 1px solid var(--border);
 }
 
 .text-category {
@@ -282,7 +284,7 @@ body {
 /* Matches Button */
 .matches {
   margin: 0 -2rem -2rem;
-  border-top: 1px solid var(--cream-dark);
+  border-top: 1px solid var(--border);
 }
 
 .matches-toggle {
@@ -303,7 +305,7 @@ body {
 }
 
 .matches-toggle:hover {
-  color: var(--ink-light);
+  color: var(--text-muted);
 }
 
 /* Modal */
@@ -330,7 +332,7 @@ body {
 }
 
 .modal {
-  background: var(--cream);
+  background: var(--bg-elevated);
   width: 100%;
   max-height: 85vh;
   overflow-y: auto;
@@ -354,7 +356,7 @@ body {
   transform: translateX(-50%);
   width: 2rem;
   height: 0.25rem;
-  background: var(--cream-dark);
+  background: var(--border);
   border-radius: 2px;
 }
 
@@ -390,13 +392,13 @@ body {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--ink-light);
+  color: var(--text-muted);
   line-height: 1;
   padding: 0.5rem;
 }
 
 .modal-close:hover {
-  color: var(--ink);
+  color: var(--text);
 }
 
 @media (min-width: 600px) {
@@ -418,7 +420,7 @@ body {
 
 .modal-author {
   font-size: 1rem;
-  color: var(--ink-light);
+  color: var(--text-muted);
   font-style: italic;
   margin-bottom: 1rem;
 }
@@ -428,7 +430,7 @@ body {
   font-weight: 500;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--cream-dark);
+  border-bottom: 1px solid var(--border);
 }
 
 .modal .modal-content {
@@ -452,7 +454,7 @@ body {
 .modal-match-item {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--cream-dark);
+  border-bottom: 1px solid var(--border);
 }
 
 .modal-match-item:last-child {
@@ -469,7 +471,7 @@ body {
 
 .modal-match-reason {
   font-size: 1rem;
-  color: var(--ink-light);
+  color: var(--text-muted);
   font-style: italic;
   line-height: 1.6;
   margin-bottom: 0.5rem;
@@ -477,7 +479,7 @@ body {
 
 .modal-match-question {
   font-size: 1rem;
-  color: var(--ink);
+  color: var(--text);
   line-height: 1.5;
 }
 
@@ -516,8 +518,8 @@ body {
   .instructions {
     font-size: 1rem;
     padding: 1.25rem 0;
-    border-top: 1px solid var(--cream-dark);
-    border-bottom: 1px solid var(--cream-dark);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
   }
 
   .instructions p {
