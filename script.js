@@ -102,7 +102,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
-    return div.innerHTML;
+    // Convert _text_ to <em>text</em> for italics
+    return div.innerHTML.replace(/_(.*?)_/g, '<em>$1</em>');
   }
 
   function openMatchesModal(guestName, matches) {
