@@ -83,13 +83,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     modalOverlay.classList.remove('active');
   }
 
-  function openModal(category, author, title, content) {
+  function openModal(category, author, title, content, url = null) {
     modalCategory.textContent = category;
     modalAuthor.textContent = author;
     modalTitle.textContent = title;
     // Split by newlines and wrap in paragraphs
     const paragraphs = content.split('\n').filter(p => p.trim());
-    modalContent.innerHTML = paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
+    let html = paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
+    if (url) {
+      html += `<p class="modal-link"><a href="${url}" target="_blank" rel="noopener">Read more ↗︎</a></p>`;
+    }
+    modalContent.innerHTML = html;
     modalMatches.innerHTML = '';
     modalMatches.style.display = 'none';
     modalOverlay.classList.add('active');
@@ -177,21 +181,25 @@ document.addEventListener('DOMContentLoaded', async () => {
       openMatchesModal(guest.name, guest.matches);
     });
 
-    // Add click handlers for plaintext items
+    // Add click handlers for plaintext items and items with blurbs
     intellectualItems.forEach((item, i) => {
-      if (!isUrl(item.content)) {
+      if (!isUrl(item.content) || item.blurb) {
         const el = card.querySelector(`[data-type="intellectual"][data-index="${i}"] .text-title`);
         el.addEventListener('click', () => {
-          openModal('intellectual resonance', guest.name, item.title, item.content);
+          const content = item.blurb || item.content;
+          const url = item.blurb ? item.content : null;
+          openModal('intellectual resonance', guest.name, item.title, content, url);
         });
       }
     });
 
     emotionalItems.forEach((item, i) => {
-      if (!isUrl(item.content)) {
+      if (!isUrl(item.content) || item.blurb) {
         const el = card.querySelector(`[data-type="emotional"][data-index="${i}"] .text-title`);
         el.addEventListener('click', () => {
-          openModal('emotional resonance', guest.name, item.title, item.content);
+          const content = item.blurb || item.content;
+          const url = item.blurb ? item.content : null;
+          openModal('emotional resonance', guest.name, item.title, content, url);
         });
       }
     });
@@ -202,7 +210,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   function createTextHtml(text) {
     const content = text.content;
 
-    if (isUrl(content)) {
+    if (isUrl(content) && !text.blurb) {
       return `<a href="${content}" target="_blank" rel="noopener">${text.title}<span class="external-icon">↗︎</span></a>`;
     } else {
       return `<span>${text.title}</span>`;

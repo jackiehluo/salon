@@ -462,6 +462,22 @@ body {
   margin-bottom: 0;
 }
 
+.modal .modal-content .modal-link {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.modal .modal-content .modal-link a {
+  color: var(--text);
+  text-decoration: none;
+  font-style: italic;
+}
+
+.modal .modal-content .modal-link a:hover {
+  color: var(--ember);
+}
+
 .modal-matches {
   display: none;
 }
