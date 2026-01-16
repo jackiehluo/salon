@@ -421,7 +421,14 @@ body {
   font-family: 'garamond-premier-pro', Georgia, serif;
   font-size: 1.1rem;
   line-height: 1.85;
-  white-space: pre-wrap;
+}
+
+.modal .modal-content p {
+  margin-bottom: 1em;
+}
+
+.modal .modal-content p:last-child {
+  margin-bottom: 0;
 }
 
 .modal-matches {

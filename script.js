@@ -44,10 +44,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     modalCategory.textContent = category;
     modalAuthor.textContent = author;
     modalTitle.textContent = title;
-    modalContent.textContent = content;
+    // Split by newlines and wrap in paragraphs
+    const paragraphs = content.split('\n').filter(p => p.trim());
+    modalContent.innerHTML = paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
     modalMatches.innerHTML = '';
     modalMatches.style.display = 'none';
     modalOverlay.classList.add('active');
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
   }
 
   function openMatchesModal(guestName, matches) {
