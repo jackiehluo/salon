@@ -36,6 +36,7 @@
   },
   {
     "name": "Apsara Iyer",
+    "photo": "photos/apsara.jpg",
     "tagline": "art's retriever",
     "bio": "Lawyer and art crime investigator. Led global efforts to recover stolen cultural heritage at the Manhattan DA's Antiquities Trafficking Unit, repatriating over 1,100 works to 15 countries. Yale BA, Harvard Law (where she was 137th President of the Law Review), Oxford MPhil. Lectures on art crime and money laundering for UNESCO, the EU, and universities worldwide.",
     "intellectual": {
@@ -106,8 +107,9 @@
   },
   {
     "name": "Corrine Ciani",
+    "photo": "photos/corrine.jpg",
     "tagline": "prairie romantic",
-    "bio": "Details unknown. Drawn to the frontier and the chaos of the road.",
+    "bio": "Writer ('sometimes I write'). Contributed to Rolling Stone—wrote about getting high with nuns. Co-produced a book about the internet with Zora. Curates events at @clubchess.club and co-writes music (like 'Dreamless'). Spent 130 hours on planes in 2025—Singapore, Japan, Ireland. Moody nature photographer with a contemplative, artistic sensibility and a love for strategy games, meaningful experiences, and environmental beauty.",
     "bioUrl": "https://www.instagram.com/corrineciani/",
     "intellectual": {
       "title": "Prairie madness",
@@ -400,8 +402,9 @@
   },
   {
     "name": "Lauren Lee",
+    "photo": "photos/lauren.jpg",
     "tagline": "self-aware observer",
-    "bio": "Liver, laugher, lover. Private Twitter presence at @528736_—the kind of account where the real self lives.",
+    "bio": "Liver, laugher, lover. Works in tech, on Twitter since 2009. Known for witty observations about everyday life—prefers bright lighting over dark mode, misses the 140-character limit, loves garlic. Shares photo dumps of daily adventures with a playful, casual style and a preference for brevity and good lighting.",
     "bioUrl": "https://x.com/528736_",
     "intellectual": {
       "title": "Attention Economy",
@@ -542,8 +545,9 @@
   },
   {
     "name": "Teddy Smyth",
+    "photo": "photos/teddy.jpg",
     "tagline": "student of light",
-    "bio": "Currently interested in: ways of seeing; light; propaganda; imperfection; memories; revolution; AI slop; art.",
+    "bio": "Generalist at Concourse in Brooklyn, exploring new ideas at the intersection of politics and technology. Career rooted in Democratic organizing—most recently General Election Director for the Georgia Democratic Party (2024). Middlebury grad (Environmental Studies, Phi Beta Kappa) who wrote his thesis on state climate politics and the EPA's Clean Power Plan. Currently interested in: ways of seeing; light; propaganda; imperfection; memories; revolution; AI slop; art.",
     "bioUrl": "https://www.linkedin.com/in/teddy-smyth-5a0a27a6/",
     "intellectual": {
       "title": "Video Analysis of ICE Shooting Sheds Light on Contested Moments",
