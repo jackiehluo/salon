@@ -35,6 +35,40 @@
     ]
   },
   {
+    "name": "Apsara Iyer",
+    "tagline": "art's retriever",
+    "bio": "Lawyer and art crime investigator. Led global efforts to recover stolen cultural heritage at the Manhattan DA's Antiquities Trafficking Unit, repatriating over 1,100 works to 15 countries. Yale BA, Harvard Law (where she was 137th President of the Law Review), Oxford MPhil. Lectures on art crime and money laundering for UNESCO, the EU, and universities worldwide.",
+    "intellectual": {
+      "title": "Mimesis by Eric Auerbach",
+      "content": "https://en.wikipedia.org/wiki/Mimesis:_The_Representation_of_Reality_in_Western_Literature",
+      "summary": "Landmark 1946 work of literary criticism tracing how Western literature represents reality—from Homer and the Bible through Dante, Cervantes, and Virginia Woolf. Written in Istanbul exile without access to a library, Auerbach argued that literature progressed toward ever more naturalistic and democratic forms. The 'greatest single work of literary criticism of the 20th century.'",
+      "themes": ["realism", "representation", "literary history", "criticism", "democracy", "tradition"]
+    },
+    "emotional": {
+      "title": "Self-Portrait by Rembrandt",
+      "content": "https://en.wikipedia.org/wiki/Self-Portrait_(Frick,_Rembrandt)",
+      "summary": "Rembrandt's 1658 self-portrait at the Frick—the largest and most imposing of his many self-portraits. At 52, bankrupt and grieving, he painted himself in the splendid costume and enthroned dignity of a monarch. Holds a painter's stick like a scepter, wears a velvet beret instead of a crown. 'Psychological depth, monumental scale, and rich, warm coloring.' A defiant assertion of artistic sovereignty in the face of ruin.",
+      "themes": ["self-portrait", "dignity", "ruin", "defiance", "artistry", "sovereignty"]
+    },
+    "matches": [
+      {
+        "name": "Luna Ruan",
+        "reason": "You chose Rembrandt's self-portrait; Luna chose Rilke's poem about a sculpture that sees the viewer. Both center on the encounter between viewer and artwork—who is looking at whom.",
+        "question": "Rembrandt painted himself as a king while bankrupt. When have you held onto dignity in the face of ruin?"
+      },
+      {
+        "name": "Teddy Smyth",
+        "reason": "You recover stolen art; Teddy is interested in 'ways of seeing.' Both of you know that looking is never neutral—there's always politics in the gaze.",
+        "question": "You've repatriated over 1,100 stolen works. What does it feel like to return something to where it belongs?"
+      },
+      {
+        "name": "Jaclyn Chan",
+        "reason": "Auerbach's Mimesis traces how literature represents reality. Jaclyn's Proust piece argues reading trains us to notice fine-grained experience. Both care about how form shapes perception.",
+        "question": "Auerbach wrote Mimesis in exile without a library. What have you made with less than you needed?"
+      }
+    ]
+  },
+  {
     "name": "Camille Vargas",
     "photo": "photos/camille.jpg",
     "tagline": "keeper of legacies",
@@ -60,13 +94,48 @@
       },
       {
         "name": "Luna Ruan",
-        "reason": "Fan leaves everything to find her beloved. Carver's deathbed poem says what he wanted was 'to feel myself beloved on the earth.' Both are about pursuit and what we're willing to risk for love.",
+        "reason": "Fan leaves everything to find her beloved. Luna's Rilke poem ends with 'you must change your life'—both are about encounters that demand transformation.",
         "question": "Fan quietly leaves her whole world to find Reg. What would you leave everything for?"
       },
       {
         "name": "Kiera Wolfe",
         "reason": "On Such a Full Sea is told in collective 'we'—a community narrating one woman's journey. The Reservoir is about recovery within intergenerational community. Both honor the communal voice.",
         "question": "Chang-rae Lee uses 'we' instead of 'I.' When has a community carried your story?"
+      }
+    ]
+  },
+  {
+    "name": "Corrine Ciani",
+    "tagline": "prairie romantic",
+    "bio": "Details unknown. Drawn to the frontier and the chaos of the road.",
+    "bioUrl": "https://www.instagram.com/corrineciani/",
+    "intellectual": {
+      "title": "Prairie madness",
+      "content": "https://en.wikipedia.org/wiki/Prairie_madness",
+      "summary": "19th-century phenomenon where European settlers on the Great Plains experienced psychological breakdown from extreme isolation. Symptoms included depression, withdrawal, and violence. Caused by the Homestead Act's dispersed claims, lack of transportation, brutal weather, and the relentless wind. Women and immigrants were particularly vulnerable. A reminder that environment shapes sanity—and that loneliness can be lethal.",
+      "themes": ["isolation", "frontier", "environment", "madness", "endurance", "loneliness"]
+    },
+    "emotional": {
+      "title": "Doomed Love at the Taco Stand by Hunter S. Thompson",
+      "content": "https://realflashbytes.com/2024/05/01/taco-stand-hunter-s-thompson/",
+      "summary": "Gonzo narrative where Thompson borrows Johnny Depp's Porsche and checkbook, meets a vulnerable dancer named Heidi, and embarks on a chaotic road trip northward. At a late-night taco stand amid gang activity, then a waterfall near Big Sur, Heidi offers a diagnosis: 'You have the soul of a teenage girl in the body of an elderly dope fiend.' Thompson finds unexpected truth in this contradiction.",
+      "themes": ["chaos", "vulnerability", "contradiction", "road trip", "doomed love", "gonzo"]
+    },
+    "matches": [
+      {
+        "name": "Garland Gay",
+        "reason": "Prairie madness argues environment causes breakdown; Garland's Gladwell argues character is contextual. You're both drawn to the idea that we're shaped by circumstance more than we admit.",
+        "question": "Thompson's companion says he has 'the soul of a teenage girl in the body of an elderly dope fiend.' What contradictions live in you?"
+      },
+      {
+        "name": "Rachel Luo",
+        "reason": "Prairie madness is about isolation driving people mad; Rachel's Parfit argues the self is unstable over time. Both question what holds identity together—or tears it apart.",
+        "question": "The prairie settlers went mad from loneliness. What keeps you sane?"
+      },
+      {
+        "name": "Freia Lobo",
+        "reason": "Prairie madness was isolation-induced breakdown; Freia's piece argues friendship requires 'tolerating untelevised time.' Both know that connection—or its absence—is life or death.",
+        "question": "The prairie settlers' isolation was physical. What kind of isolation do you fear most?"
       }
     ]
   },
@@ -176,7 +245,7 @@
       },
       {
         "name": "Luna Ruan",
-        "reason": "Heated Rivalry is about rivals who become lovers; Luna's Carver poem asks 'did you get what you wanted from this life?' Both are about desire and what we're really after.",
+        "reason": "Heated Rivalry is about rivals who become lovers; Luna's Rilke ends 'you must change your life.' Both are about desire that transforms.",
         "question": "What do you want that you haven't admitted to yourself yet?"
       },
       {
@@ -217,7 +286,7 @@
       },
       {
         "name": "Luna Ruan",
-        "reason": "Carver asks 'did you get what you wanted from this life?' Stevens would have to answer 'I'm not sure.' Both texts sit with the weight of a life's choices.",
+        "reason": "Rilke's torso 'sees' the viewer and demands change; Stevens spends decades not letting himself be seen by Miss Kenton. Both texts sit with the weight of what we allow ourselves to perceive.",
         "question": "Miss Kenton says 'one can't be forever dwelling on what might have been.' Do you believe that?"
       }
     ]
@@ -288,8 +357,8 @@
       },
       {
         "name": "Luna Ruan",
-        "reason": "Good Old Neon ends with 'David Wallace' pondering what led Neal to take his life. Luna chose Carver's deathbed poem and Brooks' address to 'the young who want to die.' Both sit with mortality and what we owe each other.",
-        "question": "DFW's narrator wanted to feel something real. Carver wanted to feel beloved. What do you want?"
+        "reason": "Good Old Neon ends with 'David Wallace' pondering what led Neal to take his life. Luna chose Brooks' address to 'the young who want to die' and Rilke's demand to change your life. Both sit with mortality and what we owe each other.",
+        "question": "DFW's narrator wanted to feel something real. Rilke's torso demands transformation. What do you want?"
       }
     ]
   },
@@ -330,28 +399,63 @@
     ]
   },
   {
+    "name": "Lauren Lee",
+    "tagline": "self-aware observer",
+    "bio": "Liver, laugher, lover. Private Twitter presence at @528736_—the kind of account where the real self lives.",
+    "bioUrl": "https://x.com/528736_",
+    "intellectual": {
+      "title": "Attention Economy",
+      "content": "But what Weil meant when she wrote that \"attention is the rarest and purest form of generosity\" is that attention is not something that has to do with productivity or the ability to sit through a meeting without checking your phone. She meant a quality of consciousness where the self temporarily disappears. Where you're so absorbed in attending to something outside yourself that you forget you're someone who's attending. You're not monitoring your attention, not performing it, not aware of it. The boundaries between you and the thing you're attending to dissolve. It's when you're emptied out and the world fills you.\n\nThis is the kind of attention that lets you really _see_ something, that lets you notice the particular way afternoon light hits a landscape, that lets you read a book and lose track of time. It requires that you stop thinking about yourself—stop narrating yourself, stop checking whether you're doing it right, stop wondering how it looks to other people, stop wondering how this moment will appear when you describe it later. It requires a suspension of self-consciousness.\n\nI thought about this recently while watching a father teach his daughter how to tie her shoes.\n\nI was at a coffee shop (that place in Bushwick where the coffee costs seven dollars and comes on a little tray in a handmade ceramic cup that's slightly too small to justify the price but feels nice to hold, as a way of making the ritual feel meaningful even when it's mundane). I was sitting by the window, ostensibly reading, when I noticed them outside: the dad with patient hands, the kid maybe five years old, concentrating with that intense focus that children have when they're learning something physical, something that requires their whole body to cooperate.\n\nAnd here's what happened in my consciousness, in order:\n\nI see this and something in me softens. The scene is beautiful, genuinely beautiful in a way that's almost embarrassing to notice because it's so obviously sentimental. But it _is_ beautiful, the patience and the concentration and the light coming through the window at just the right angle.\n\nAnd then immediately, I'm aware that I'm seeing something beautiful, which means I'm no longer just seeing it. I'm seeing _myself_ seeing it. And I'm narrating it: \"this is beautiful.\" I'm already processing the experience as an experience worth noting. Then I think: should I take a photo? This would make a good photo. The light is perfect, the composition is readymade, the dad's hands and the child's tiny fingers working on the shoelaces. Then I think: no, that would be intrusive. They're having a private moment. I would be commodifying their intimacy, turning it into content. Then I feel virtuous for not taking the photo. I feel like I've made the moral choice, the respectful choice. I'm a good person who doesn't turn genuine human moments into content. Then I wonder if I'm being too self-conscious about this. Maybe taking a photo would be fine? Maybe I'm overthinking it? Maybe the real problem is that I'm so aware of performing ethics that I can't just be in the moment?\n\nThen I feel sad about this. About my inability to just _be_ somewhere without narrating it to myself. About the way every experience immediately becomes material, becomes content-in-waiting.",
+      "summary": "Substack essay on Simone Weil's idea of attention as generosity—not productivity but self-dissolution, being so absorbed that you forget you're attending. Describes watching a father teach his daughter to tie her shoes and immediately losing the moment to self-narration: seeing herself seeing, feeling virtuous for not taking a photo, then feeling sad about her inability to just be present.",
+      "themes": ["attention", "self-consciousness", "presence", "narration", "Simone Weil", "perception"]
+    },
+    "emotional": {
+      "title": "Wanting by Claire Jia",
+      "content": "She had tears in her eyes. \"Do you know why my mother named me Fan? Everyone in the village thought she'd lost her mind - sure, we were used to calling our kids Little Dog, Little Bastard as nicknames, but as an actual name? 'Ordinary?' They felt like she was playing a joke on them. But my mom said that ordinary was the stuff of life. Most people are ordinary. Ordinary is good. I was angry when she explained this to me; I thought she was trying to limit me, make me a conventional woman, keep me by her side in the village all my life. She never wanted greatness for me, and for years I fought this - I would go to America, be someone great.\n\nI'd tell people my name was Ordinary and dare them to confirm; it was obvious to everyone that I was anything but ordinary.\n\n\"But now I realize that my mother was right all along. Greatness is elusive; it is not meant to last long; even when you attain it you spend the rest of your life trying to keep it. I chased you because I thought you were extraordinary, then I chased Robert because I thought he was. Greatness always ends, with time, with distance, with death. But ordinary is everlasting. Ordinary is the morning light. Ordinary is a wave to your neighbor. Ordinary is the fact that Robert got to hold his granddaughter two months before he died.\n\nOrdinary is our son, our wonderful son. My mother wanted me to be proud of who I was already, someone ordinary. She did not want me to wager the worth of my life on what I could achieve, on who I could become. I was already her beloved daughter, her ordinary daughter. And now I finally understand this.\"",
+      "summary": "Novel excerpt where a character named Fan (meaning 'ordinary') reflects on her mother's wisdom. She spent years chasing greatness, thinking her name was a limitation. Now she understands: 'Ordinary is everlasting. Ordinary is the morning light.' A meditation on the difference between becoming someone and already being beloved.",
+      "themes": ["ordinary", "greatness", "ambition", "motherhood", "belonging", "enough"]
+    },
+    "matches": [
+      {
+        "name": "Alice Li",
+        "reason": "Your attention piece is about failing to just be present—narrating the moment instead of living it. Alice's Burkeman warns against 'becoming the kind of person who does X.' Both know that self-consciousness can be a trap.",
+        "question": "You describe watching a beautiful moment and immediately losing it to self-narration. How do you get back?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Your attention piece asks what it means to truly see. Luna's Rilke ends 'you must change your life'—both are about the moral weight of real perception.",
+        "question": "Rilke's torso demands transformation. What has demanded that of you?"
+      },
+      {
+        "name": "Rachel Luo",
+        "reason": "Your 'Wanting' excerpt is about learning to value ordinary over greatness. Rachel's Pastor Travis quote rejects 'scripts' for life. Both celebrate the freedom of being enough as you are.",
+        "question": "Fan's mother named her 'Ordinary' as a blessing. What blessing have you received that you didn't recognize at first?"
+      }
+    ]
+  },
+  {
     "name": "Luna Ruan",
     "photo": "photos/luna.jpg",
     "tagline": "tender collector of poems",
     "bio": "Engineering Manager at Clay, previously Tech Lead on React DevTools at Meta and engineer at Pinterest. Carnegie Mellon CS grad based in Brooklyn. Describes herself as a 'chronic lurker, forever learner.' Curates poetry on Twitter—Victoria Chang, Frank O'Hara, R.O. Kwon. Balances technical precision of her day job with emotional depth of literature. Finds meaning in quiet observation.",
     "bioUrl": "https://x.com/mooncakewrites",
     "intellectual": {
-      "title": "Late Fragment",
-      "content": "A poem by Raymond Carver, the last poem he wrote before he died on his deathbed.\n\nAnd did you get what\nyou wanted from this life, even so?\nI did.\nAnd what did you want?\nTo call myself beloved, to feel myself\nbeloved on the earth.",
-      "summary": "Raymond Carver's final poem, written on his deathbed. A simple question—did you get what you wanted?—answered with the desire to feel beloved. Profound in its directness about what matters.",
-      "themes": ["mortality", "desire", "love", "meaning", "life", "poetry"]
+      "title": "Archaic Torso of Apollo by Rainer Maria Rilke",
+      "content": "We cannot know his legendary head\nwith eyes like ripening fruit. And yet his torso\nis still suffused with brilliance from inside,\nlike a lamp, in which his gaze, now turned to low,\n\ngleams in all its power. Otherwise\nthe curved breast could not dazzle you so, nor could\na smile run through the placid hips and thighs\nto that dark center where procreation flared.\n\nOtherwise this stone would seem defaced\nbeneath the translucent cascade of the shoulders\nand would not glisten like a wild beast's fur:\n\nwould not, from all the borders of itself,\nburst like a star: for here there is no place\nthat does not see you. You must change your life.",
+      "summary": "Rilke's ekphrastic sonnet about encountering a headless Greek sculpture. Though we cannot see the god's face, the torso radiates such presence that it sees us—and demands transformation. The famous final line, 'You must change your life,' emerges not as moral instruction but as the inevitable response to being truly seen by beauty.",
+      "themes": ["art", "perception", "transformation", "beauty", "the gaze", "imperative"]
     },
     "emotional": {
       "title": "To the young who want to die",
       "content": "https://www.themarginalian.org/2022/07/22/to-the-young-who-want-to-die-gwendolyn-brooks/",
-      "summary": "Gwendolyn Brooks poem, written after a young waiter responded to her 'Good morning!' with tears of gratitude. A tender address to those in pain.",
-      "themes": ["mortality", "hope", "tenderness", "youth", "despair", "poetry"]
+      "summary": "Gwendolyn Brooks poem, inspired over breakfast at a hotel when a young waiter met her simple 'Good morning!' with a gasp on the verge of tears: 'Oh, thank you, thank you!' A tender address to those in pain—an affirmation that being seen matters.",
+      "themes": ["mortality", "hope", "tenderness", "youth", "despair", "poetry", "being seen"]
     },
     "matches": [
       {
-        "name": "Jackie Luo",
-        "reason": "Carver's question—'did you get what you wanted from this life?'—echoes through Stevens' quiet devastation in the Ishiguro. Both texts sit with the weight of choices made and unmade.",
-        "question": "Carver answers 'I did'—he got what he wanted. What would your answer be, even so?"
+        "name": "Apsara Iyer",
+        "reason": "Your Rilke poem is about a sculpture that sees the viewer—art as encounter. Apsara's Rembrandt self-portrait and her work recovering stolen art both center on what happens when we truly see a work of art.",
+        "question": "Rilke says 'there is no place that does not see you.' When has a work of art seen you?"
       },
       {
         "name": "Freia Lobo",
@@ -359,9 +463,9 @@
         "question": "Brooks wrote her poem after a waiter cried at being seen. When has a small gesture meant everything?"
       },
       {
-        "name": "Jackie Fu",
-        "reason": "Your Brooks poem is a tender address to those in pain. Jackie Fu's Heated Rivalry is about rivals who become lovers—both explore vulnerability and what we hide from others.",
-        "question": "What do you need that you're afraid to ask for?"
+        "name": "Lauren Lee",
+        "reason": "Your Rilke ends 'you must change your life.' Lauren's attention piece asks what happens when we truly see something outside ourselves. Both are about the moral weight of real perception.",
+        "question": "Rilke's torso demands transformation. What has demanded that of you?"
       }
     ]
   },
@@ -433,6 +537,41 @@
         "name": "Jackie Fu",
         "reason": "Takata's video explores desire through myth and gender-bending storytelling. Jackie Fu's Heated Rivalry is about desire between rivals. Both find the erotic in unexpected forms.",
         "question": "Takata's work questions masculine and feminine definitions. Where do you feel most free from those categories?"
+      }
+    ]
+  },
+  {
+    "name": "Teddy Smyth",
+    "tagline": "student of light",
+    "bio": "Currently interested in: ways of seeing; light; propaganda; imperfection; memories; revolution; AI slop; art.",
+    "bioUrl": "https://www.linkedin.com/in/teddy-smyth-5a0a27a6/",
+    "intellectual": {
+      "title": "Video Analysis of ICE Shooting Sheds Light on Contested Moments",
+      "content": "https://www.nytimes.com/2026/01/15/video/ice-shooting-renee-good-minneapolis-videos.html",
+      "summary": "NYT visual investigation using video analysis to reconstruct contested events in a Minneapolis ICE shooting. Frame-by-frame examination reveals what witnesses and participants couldn't see in real time—how perspective shapes narrative, how evidence can illuminate or obscure.",
+      "themes": ["visual analysis", "truth", "perspective", "evidence", "propaganda", "seeing"]
+    },
+    "emotional": {
+      "title": "Het licht verplaatst zich",
+      "content": "https://www.kmska.be/nl/meesterwerk/het-licht-verplaatst-zich",
+      "summary": "1979 pastel drawing by Belgian artist Jozef Van Ruyssevelt, titled 'The Light Moves.' Part of the Royal Museum of Fine Arts Antwerp collection. A meditation on light as dynamic presence—how it shifts, transforms, and refuses to stay still.",
+      "themes": ["light", "movement", "perception", "Belgian art", "pastel", "impermanence"]
+    },
+    "matches": [
+      {
+        "name": "Apsara Iyer",
+        "reason": "You both think deeply about how we see art and how art sees us. Your video analysis is about evidence and perspective; Apsara chose Rembrandt's self-portrait and works to recover stolen cultural heritage.",
+        "question": "Your intellectual pick analyzes how video reveals what witnesses couldn't see. What has changed how you see?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Your video is about ways of seeing—how perspective shapes truth. Luna's Rilke poem is about being seen by art: 'there is no place that does not see you.' Both interrogate the gaze.",
+        "question": "Rilke says the torso sees you. When has something inanimate seemed to look back?"
+      },
+      {
+        "name": "Lauren Lee",
+        "reason": "Your interests include propaganda and ways of seeing. Lauren's attention piece is about what happens when we truly attend to something—and how self-consciousness interferes. Both examine the act of looking.",
+        "question": "Lauren describes watching a father teach his daughter to tie her shoes and immediately narrating the experience. How do you stay present with what you're seeing?"
       }
     ]
   }
