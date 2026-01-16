@@ -1,6 +1,6 @@
 # jackie's birthday salon
 
-a little web app for a birthday salon where guests share texts that resonate intellectually and emotionally and get matched with conversation partners.
+a little web app for a birthday salon where guests share chosen works that resonate intellectually and emotionally and get matched with conversation partners.
 
 ## run locally
 
@@ -21,7 +21,7 @@ salon/
 ├── index.html      # main page
 ├── style.css       # left bank literati styling
 ├── script.js       # loads data, renders cards, handles modals
-├── data.json       # guest data with texts and matches
+├── data.json       # guest data with chosen works and matches
 ├── photos/         # guest photos
 ├── .env            # airtable credentials (not committed)
 └── CLAUDE.md       # instructions for updating guest data
