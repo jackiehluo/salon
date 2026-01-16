@@ -223,6 +223,7 @@
   },
   {
     "name": "iain nash",
+    "photo": "photos/iain.jpg",
     "tagline": "light and data sculptor",
     "bio": "Software engineer who builds immersive installations blending physical and digital. Creates interactive lighting (geodesic domes, LED cubes), biofeedback experiences (heart rate sensors synced to light), sensor-responsive spaces (LIDAR, motion, ultrasonic), and networked performance art (120 fans synced to soundtracks). Tech: TouchDesigner, WebGL, Arduino, ESP32, DMX. Thinks about the lifecycle of data—how images and text get mutated in transport. Burning Man as creative outlet.",
     "bioUrl": "https://iain.in/interactive",
