@@ -40,6 +40,12 @@ curl -s "https://api.airtable.com/v0/$AIRTABLE_BASE_ID/Table%201" \
 - Preserve ALL existing content exactly (never truncate)
 - Sort guests alphabetically by name in the file
 
+### Git commits
+- 100% lowercase
+- Clean summary title only, no body
+- No co-author line
+- Example: `add camille vargas, enrich bios`
+
 ### 6. Report what's missing
 At the end, tell the user:
 - Which photos couldn't be downloaded (need manual fetch)
