@@ -25,7 +25,7 @@
   --border: #3a3835;
   --ember: #d4582a;
   --smoke: #7a756c;
-  --holder: #e8e4d9;
+  --holder: #8a8580;
 }
 
 body {
@@ -525,6 +525,10 @@ body {
 
 .theme-toggle:hover {
   border-color: var(--text-muted);
+}
+
+.theme-toggle {
+  color: var(--text);
 }
 
 /* Responsive */

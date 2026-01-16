@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (dark) {
       document.documentElement.setAttribute('data-theme', 'dark');
       toggle.textContent = '☀';
-      if (holder) holder.setAttribute('stroke', '#e8e4d9');
+      if (holder) holder.setAttribute('stroke', '#8a8580');
     } else {
       document.documentElement.removeAttribute('data-theme');
       toggle.textContent = '☽';
