@@ -3,7 +3,7 @@
     "name": "Alice Li",
     "photo": "photos/alice.jpg",
     "tagline": "pole-dancing gamer",
-    "bio": "games, pole, chinese dramas",
+    "bio": "Doesn't have much of a digital presence and often forgets her phone at home. Gets overwhelmed easily, prefers physical social interactions over digital—anxious about navigating an increasingly digital world while working in a field that builds it. Games with engine-building scratch an itch for productive progress without mental friction (hundreds of hours in Slay the Spire). Physical 100 inspired her to think about exercise functionally—prioritizes mobility, flexibility, and 'doing sick tricks.' Currently pole; before, gymnastics. Security blanket: Chinese dramas with female leads who use their wits—values competence, composure, rationality, and a predictable ending. Likes to laugh, be silly, and enjoy the absurd when not spiraling at home.",
     "intellectual": {
       "title": "Get In Loser, We're Friction-Maxxing",
       "content": "https://slate.com/podcasts/icymi/2026/01/what-is-friction-maxxing",
@@ -35,10 +35,46 @@
     ]
   },
   {
+    "name": "Camille Vargas",
+    "photo": "photos/camille.jpg",
+    "tagline": "keeper of legacies",
+    "bio": "33-year-old Bolivian-American woman from a big family. Loves heritage, roots, and legacy—particularly that of women. Currently reading Elena Garro's A Week of Colors, drawn to the way she describes characters like Señora Laurita: self-driven and determined. Loves sculptural flower arrangements like ikebana. Anything with emotional depth, resoluteness, and grace.",
+    "bioUrl": "https://www.instagram.com/chamomileandhoney/",
+    "intellectual": {
+      "title": "Remedios Varo: Science Fictions",
+      "content": "https://www.artic.edu/exhibitions/9935/remedios-varo-science-fictions",
+      "summary": "Exhibition of Spanish-Mexican Surrealist Remedios Varo—mystical musicians, eccentric scientists, voyagers in curious contraptions. Her paintings blend chance-based Surrealist techniques with imagery from chivalric romance, ecology, mysticism, psychology, and tarot. Works 'suffused with material enchantment' that visualize hidden orders and unseen truths.",
+      "themes": ["surrealism", "mysticism", "science", "enchantment", "women artists", "Mexico"]
+    },
+    "emotional": {
+      "title": "On Such a Full Sea by Chang-rae Lee",
+      "content": "https://en.wikipedia.org/wiki/On_Such_a_Full_Sea",
+      "summary": "Dystopian novel told in first-person plural ('we') about Fan, a young fish-tank diver who leaves her regulated Charter village to find her missing boyfriend in a post-apocalyptic America. A quiet, resolute heroine on a journey through anarchic open counties. Title from Shakespeare: 'On such a full sea are we now afloat; and we must take the current when it serves, or lose our ventures.'",
+      "themes": ["journey", "love", "dystopia", "community", "resoluteness", "pursuit"]
+    },
+    "matches": [
+      {
+        "name": "Jackie Luo",
+        "reason": "Remedios Varo blends science and mysticism to visualize 'hidden orders and unseen truths.' Jackie's Wigner paper asks why abstract math describes physical reality. Both are drawn to the enchantment lurking in rational systems.",
+        "question": "Varo painted eccentric scientists and mystical voyagers. What's something in your life that feels both scientific and magical?"
+      },
+      {
+        "name": "Luna Ruan",
+        "reason": "Fan leaves everything to find her beloved. Carver's deathbed poem says what he wanted was 'to feel myself beloved on the earth.' Both are about pursuit and what we're willing to risk for love.",
+        "question": "Fan quietly leaves her whole world to find Reg. What would you leave everything for?"
+      },
+      {
+        "name": "Kiera Wolfe",
+        "reason": "On Such a Full Sea is told in collective 'we'—a community narrating one woman's journey. The Reservoir is about recovery within intergenerational community. Both honor the communal voice.",
+        "question": "Chang-rae Lee uses 'we' instead of 'I.' When has a community carried your story?"
+      }
+    ]
+  },
+  {
     "name": "Freia Lobo",
     "photo": "photos/freia.jpg",
     "tagline": "restaurant philosopher",
-    "bio": "writer, restaurant devotee",
+    "bio": "Writer on Substack (Freia's Letter). Self-description: 'i love restaurants.' Writes about dining and culinary experiences with philosophical depth.",
     "bioUrl": "https://substack.com/@freia",
     "intellectual": {
       "title": "An Existential Guide to: Making Friends",
@@ -62,9 +98,9 @@
     ],
     "matches": [
       {
-        "name": "Jaclyn Chan",
-        "reason": "Your friendship piece argues we 'trade masks' and connection requires strategic vulnerability. Jaclyn's piece argues we habitually underestimate people by observing them in limited contexts. Both are about how hard it is to truly see someone.",
-        "question": "The friendship piece says 'only impossible endeavors carry real significance.' What impossible thing are you attempting right now?"
+        "name": "Camille Vargas",
+        "reason": "You chose obituaries about what parents leave behind. Camille is drawn to heritage, roots, and the legacy of women. Both of you honor what we inherit and what we pass on.",
+        "question": "Caity Weaver's dad 'studied movies to learn how a dad should be.' What have you learned about love from watching others?"
       },
       {
         "name": "Jackie Luo",
@@ -82,7 +118,7 @@
     "name": "Garland Gay",
     "photo": "photos/garland.jpg",
     "tagline": "finance's funniest oversharer",
-    "bio": "@ebitmom",
+    "bio": "Works in financial services in Manhattan. Twitter presence @ebitmom, characterized by witty irreverence: 'i do finance and this is all investment advice.' Speaks candidly about everything from market dynamics to mundane daily realities. Mixes financial commentary with refreshingly honest observations—relatable and sharp, vulnerable and funny in equal measure. A rare combination in the finance world.",
     "bioUrl": "https://x.com/ebitmom",
     "intellectual": {
       "title": "Where Do Eels Come From?",
@@ -118,7 +154,7 @@
     "name": "Jackie Fu",
     "photo": "photos/jackiefu.jpg",
     "tagline": "romance devotee",
-    "bio": "digital designer",
+    "bio": "Digital designer with a portfolio at jackie.foo. Visual sensibility and attention to craft evident in her work.",
     "bioUrl": "https://jackielfu.com",
     "intellectual": {
       "title": "Perfection",
@@ -154,7 +190,7 @@
     "name": "Jackie Luo",
     "photo": "photos/jackie.jpg",
     "tagline": "your host",
-    "bio": "product builder, philosophy nerd",
+    "bio": "Your host. Product and engineering leader interested in human coordination, AI, and decentralized technologies. Philosophy degree from Columbia. Previously head of product engineering at Zora. Writes newsletters on technology and society, hosts experimental community gatherings like this one.",
     "bioUrl": "https://jackieluo.com",
     "intellectual": {
       "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
@@ -190,7 +226,7 @@
     "name": "Jaclyn Chan",
     "photo": "photos/jaclyn.webp",
     "tagline": "keen noticer",
-    "bio": "engineer, community builder",
+    "bio": "Likes to host and craft. Engineer at Ambrook (fintech for farmers). CS from University of Waterloo, previously at Rippling, Coinbase, Curvegrid. Builds community through 'rabbitholes'—curated explorations of ideas. Interests span reading, music, and photography.",
     "bioUrl": "https://www.straightupjac.xyz/",
     "intellectual": {
       "title": "On Reading Proust's In Search of Lost Time",
@@ -226,7 +262,7 @@
     "name": "Kiera Wolfe",
     "photo": "photos/kiera.jpg",
     "tagline": "prose witch",
-    "bio": "fiction writer, postcard hoarder",
+    "bio": "Fiction writer based in Brooklyn who hoards postcards from art museums. Contributes to Mudroom Magazine.",
     "bioUrl": "https://www.mudroommag.com/masthead",
     "intellectual": {
       "title": "Jake Brasch's \"The Reservoir\"",
@@ -262,7 +298,7 @@
     "name": "Luna Ruan",
     "photo": "photos/luna.jpg",
     "tagline": "tender collector of poems",
-    "bio": "@mooncakewrites",
+    "bio": "Engineering Manager at Clay, previously Tech Lead on React DevTools at Meta and engineer at Pinterest. Carnegie Mellon CS grad based in Brooklyn. Describes herself as a 'chronic lurker, forever learner.' Curates poetry on Twitter—Victoria Chang, Frank O'Hara, R.O. Kwon. Balances technical precision of her day job with emotional depth of literature. Finds meaning in quiet observation.",
     "bioUrl": "https://x.com/mooncakewrites",
     "intellectual": {
       "title": "Late Fragment",
@@ -298,7 +334,7 @@
     "name": "Rachel Luo",
     "photo": "photos/rachel.jpg",
     "tagline": "homegrown artisan",
-    "bio": "instagram.com/rachelhluo",
+    "bio": "Brooklyn-based creative who splits her time between the garden and the kitchen. Works in growth at Orchard by day, but passions flourish in hands-on hobbies: tending plants, cooking from beloved cookbooks, arranging florals, sewing her own garments. Loves hosting gatherings, home-making, and thoughtful DIY projects. Equally comfortable traveling solo to far-flung destinations or nurturing tomatoes in her garden. Aesthetic eye and maker's spirit—turns everyday activities into creative expressions of care and community.",
     "bioUrl": "https://instagram.com/rachelhluo",
     "intellectual": {
       "title": "Katabasis by RF Kuang",
@@ -324,9 +360,9 @@
         "question": "What script did you abandon? What did you find instead?"
       },
       {
-        "name": "Luna Ruan",
-        "reason": "Your Pastor Travis quote rejects 'scripts' for how to live. Luna's Carver poem asks what you really want. Both push back against inherited expectations.",
-        "question": "What do you want that no script told you to want?"
+        "name": "Camille Vargas",
+        "reason": "You both turn everyday activities into creative expressions of care—you with gardening and cooking, Camille with ikebana. Both drawn to heritage, roots, and the domestic arts as something meaningful.",
+        "question": "Fan in Camille's novel leaves everything to find someone she loves. What would you leave everything for?"
       }
     ]
   },
@@ -334,7 +370,7 @@
     "name": "Shii Ann Huang",
     "photo": "photos/shiiann.jpg",
     "tagline": "eldest sage",
-    "bio": "the oldest and wisest",
+    "bio": "The oldest and wisest person at the party.",
     "intellectual": {
       "title": "Why Buddhism Is True",
       "content": "https://en.wikipedia.org/wiki/Why_Buddhism_Is_True",
@@ -362,41 +398,6 @@
         "name": "Jackie Fu",
         "reason": "Takata's video explores desire through myth and gender-bending storytelling. Jackie Fu's Heated Rivalry is about desire between rivals. Both find the erotic in unexpected forms.",
         "question": "Takata's work questions masculine and feminine definitions. Where do you feel most free from those categories?"
-      }
-    ]
-  },
-  {
-    "name": "Camille Vargas",
-    "tagline": "keeper of legacies",
-    "bio": "bolivian-american, ikebana devotee",
-    "bioUrl": "https://www.instagram.com/chamomileandhoney/",
-    "intellectual": {
-      "title": "Remedios Varo: Science Fictions",
-      "content": "https://www.artic.edu/exhibitions/9935/remedios-varo-science-fictions",
-      "summary": "Exhibition of Spanish-Mexican Surrealist Remedios Varo—mystical musicians, eccentric scientists, voyagers in curious contraptions. Her paintings blend chance-based Surrealist techniques with imagery from chivalric romance, ecology, mysticism, psychology, and tarot. Works 'suffused with material enchantment' that visualize hidden orders and unseen truths.",
-      "themes": ["surrealism", "mysticism", "science", "enchantment", "women artists", "Mexico"]
-    },
-    "emotional": {
-      "title": "On Such a Full Sea by Chang-rae Lee",
-      "content": "https://en.wikipedia.org/wiki/On_Such_a_Full_Sea",
-      "summary": "Dystopian novel told in first-person plural ('we') about Fan, a young fish-tank diver who leaves her regulated Charter village to find her missing boyfriend in a post-apocalyptic America. A quiet, resolute heroine on a journey through anarchic open counties. Title from Shakespeare: 'On such a full sea are we now afloat; and we must take the current when it serves, or lose our ventures.'",
-      "themes": ["journey", "love", "dystopia", "community", "resoluteness", "pursuit"]
-    },
-    "matches": [
-      {
-        "name": "Jackie Luo",
-        "reason": "Remedios Varo blends science and mysticism to visualize 'hidden orders and unseen truths.' Jackie's Wigner paper asks why abstract math describes physical reality. Both are drawn to the enchantment lurking in rational systems.",
-        "question": "Varo painted eccentric scientists and mystical voyagers. What's something in your life that feels both scientific and magical?"
-      },
-      {
-        "name": "Luna Ruan",
-        "reason": "Fan leaves everything to find her beloved. Carver's deathbed poem says what he wanted was 'to feel myself beloved on the earth.' Both are about pursuit and what we're willing to risk for love.",
-        "question": "Fan quietly leaves her whole world to find Reg. What would you leave everything for?"
-      },
-      {
-        "name": "Kiera Wolfe",
-        "reason": "On Such a Full Sea is told in collective 'we'—a community narrating one woman's journey. The Reservoir is about recovery within intergenerational community. Both honor the communal voice.",
-        "question": "Chang-rae Lee uses 'we' instead of 'I.' When has a community carried your story?"
       }
     ]
   }
