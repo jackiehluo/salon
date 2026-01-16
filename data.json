@@ -223,8 +223,8 @@
   },
   {
     "name": "iain nash",
-    "tagline": "poor image defender",
-    "bio": "Software engineer who likes to tinker with media. Thinks about the lifecycle and journey of data—how images and text get mutated, transported, stored. Some of that work lives at iain.in/interactive. In recent years, Burning Man has been a creative outlet for making experiences and technology to support ideas.",
+    "tagline": "light and data sculptor",
+    "bio": "Software engineer who builds immersive installations blending physical and digital. Creates interactive lighting (geodesic domes, LED cubes), biofeedback experiences (heart rate sensors synced to light), sensor-responsive spaces (LIDAR, motion, ultrasonic), and networked performance art (120 fans synced to soundtracks). Tech: TouchDesigner, WebGL, Arduino, ESP32, DMX. Thinks about the lifecycle of data—how images and text get mutated in transport. Burning Man as creative outlet.",
     "bioUrl": "https://iain.in/interactive",
     "intellectual": {
       "title": "In Defense of the Poor Image",
