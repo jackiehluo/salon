@@ -89,10 +89,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     modalTitle.textContent = title;
     // Split by newlines and wrap in paragraphs
     const paragraphs = content.split('\n').filter(p => p.trim());
-    let html = paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
+    let html = '';
     if (url) {
-      html += `<p class="modal-link"><a href="${url}" target="_blank" rel="noopener">Read more ↗︎</a></p>`;
+      html += `<p class="modal-link"><a href="${url}" target="_blank" rel="noopener">View the work ↗︎</a></p>`;
     }
+    html += paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
     modalContent.innerHTML = html;
     modalMatches.innerHTML = '';
     modalMatches.style.display = 'none';

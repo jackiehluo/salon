@@ -463,9 +463,9 @@ body {
 }
 
 .modal .modal-content .modal-link {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .modal .modal-content .modal-link a {
