@@ -362,19 +362,6 @@ body {
   transform: translateY(0);
 }
 
-/* Drag handle for mobile */
-.modal::before {
-  content: '';
-  position: absolute;
-  top: 0.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2rem;
-  height: 0.25rem;
-  background: var(--border);
-  border-radius: 2px;
-}
-
 @media (min-width: 600px) {
   .modal-overlay {
     align-items: center;
@@ -394,9 +381,6 @@ body {
     opacity: 1;
   }
 
-  .modal::before {
-    display: none;
-  }
 }
 
 .modal-close {
