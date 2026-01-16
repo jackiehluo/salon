@@ -10,22 +10,6 @@ python3 -m http.server 8080
 
 then open http://localhost:8080
 
-## update guest data
-
-1. fetch from airtable:
-```bash
-source .env
-curl -s "https://api.airtable.com/v0/$AIRTABLE_BASE_ID/Table%201" \
-  -H "Authorization: Bearer $AIRTABLE_API_KEY"
-```
-
-2. update `data.json` with new guests, taglines, titles, matches, summaries, and themes
-
-3. download photos to `photos/` folder:
-```bash
-curl -sL "https://example.com/photo.jpg" -o photos/name.jpg
-```
-
 ## deploy
 
 push to github and enable github pages, or drop the files anywhere static.
@@ -38,5 +22,7 @@ salon/
 ├── style.css       # left bank literati styling
 ├── script.js       # loads data, renders cards, handles modals
 ├── data.json       # guest data with texts and matches
-└── photos/         # local guest photos
+├── photos/         # guest photos
+├── .env            # airtable credentials (not committed)
+└── CLAUDE.md       # instructions for updating guest data
 ```
