@@ -21,7 +21,22 @@
    - *Themes*: 5-8 keywords per text
    - *Taglines*: 3-5 words ending in a noun
 
-4. **Generate matches** — 3 per person based on texts or bio, questions tie back to texts, balance across both picks
+4. **Generate matches** — 3 per person, balance across both picks
+
+   *Reasons should:*
+   - Connect specific ideas/themes between both people's texts (not just "you both like X")
+   - Find thematic resonance, productive tension, or unexpected complement
+   - Reference actual concepts, quotes, or arguments from the works
+
+   *Questions should:*
+   - Engage with the intellectual content of the texts
+   - Invite personal reflection or application (not just "what do you think of X?")
+   - Be specific enough to spark real conversation, open enough to go deep
+   - Avoid generic icebreakers
+
+   *Balance academic + personal:*
+   - Academic: "Steyerl argues poor images embody 'reality' by revealing conditions of circulation."
+   - Personal: "What has a degraded image taught you that a crisp one couldn't?"
 
 5. **Update data.json** — alphabetize by name, preserve all content
 
