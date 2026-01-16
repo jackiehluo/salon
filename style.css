@@ -132,6 +132,20 @@ body {
   font-weight: 600;
 }
 
+.join-link {
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.join-link a {
+  color: var(--ink-light);
+  text-decoration: none;
+}
+
+.join-link a:hover {
+  color: var(--ember);
+}
+
 /* Directory */
 .directory {
   display: grid;
