@@ -1,5 +1,41 @@
 [
   {
+    "name": "Agustina Panzoni",
+    "photo": "photos/agustina.jpg",
+    "tagline": "seeker of fakes",
+    "bio": "Designer with an eye for the constructed and the real. Drawn to questions of authenticity, simulation, and what happens when copies become preferred to originals.",
+    "bioUrl": "https://www.instagram.com/aguspanzoni/",
+    "intellectual": {
+      "title": "Faith in Fakes by Umberto Eco",
+      "content": "https://archive.org/details/faithinfakestrav0000ecou",
+      "summary": "Eco's essays on 'hyperreality'—America's obsession with simulacra and the 'Absolute Fake.' Travels through wax museums, Disneyland, and heritage villages where meticulously engineered imitations are preferred to imperfect originals. Unlike Baudrillard, Eco doesn't claim the real is erased—just that newer, more complete copies become the benchmark for authenticity.",
+      "themes": ["hyperreality", "authenticity", "simulation", "America", "copies", "culture"]
+    },
+    "emotional": {
+      "title": "Mark Armijo McKnight: Decreation",
+      "content": "https://www.youtube.com/watch?v=NYbC_gAwJ_o",
+      "summary": "Photography exhibition exploring Simone Weil's concept of 'decreation'—an intentional undoing of the self. Black-and-white images of bodies and landscapes in intermediate states: anonymous nude figures in harsh environments conveying both ecstasy and affliction. Simultaneously evokes tumult and quietude, darkness and light, isolation and togetherness.",
+      "themes": ["self", "undoing", "bodies", "landscape", "ecstasy", "affliction", "Simone Weil"]
+    },
+    "matches": [
+      {
+        "name": "Lauren Lee",
+        "reason": "Decreation is based on Simone Weil's concept of undoing the self. Lauren's essay is about Weil's idea of attention as self-dissolution—'being so absorbed that you forget you're attending.' Both sit with what it means to disappear.",
+        "question": "Your essay describes losing a moment to self-narration. Weil's attention requires the self to temporarily vanish. When have you managed to just be gone?"
+      },
+      {
+        "name": "Iain Nash",
+        "reason": "Eco's hyperreality argues copies become preferred to originals. Steyerl's poor images gain meaning through degradation and circulation. Both question where authenticity lives—in the pristine original or the traveled copy.",
+        "question": "Steyerl says poor images reveal 'the actual conditions of digital circulation.' When has a copy told you more than the original?"
+      },
+      {
+        "name": "Shii Ann Huang",
+        "reason": "Decreation is Simone Weil's term for undoing the self. Buddhism argues the self is largely illusion. Both traditions ask: what remains when you stop holding yourself together?",
+        "question": "Robert Wright argues our sense of self is constructed by evolution. What has meditation or stillness undone in you?"
+      }
+    ]
+  },
+  {
     "name": "Alice Li",
     "photo": "photos/alice.jpg",
     "tagline": "pole-dancing gamer",
@@ -235,7 +271,7 @@
     },
     "emotional": {
       "title": "Oysters: A Love Story",
-      "content": "https://www.nytimes.com/2017/08/17/magazine/oysters-a-love-story.html",
+      "content": "https://www.nytimes.com/2017/08/17/magazine/oysters-a-love-story.html?unlocked_article_code=1.FFA.kxmO.y5t4A_Jjd6xl&smid=nytcore-ios-share",
       "summary": "Essay about meeting a man at a bar and 'marrying' him nine hours later at Veselka. He opened oysters for a living—liked them 'keenly and quietly, without fetish or hyperbole.' Through oysters, she learns a different way of appreciating things. When her mother asks about long-term plans, she deflects: the oysters can't wait.",
       "themes": ["love", "food", "intimacy", "appreciation", "commitment", "deflection"]
     },
