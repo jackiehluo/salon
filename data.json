@@ -18,19 +18,19 @@
     },
     "matches": [
       {
-        "name": "Garland Gay",
-        "reason": "Friction-maxxing argues we need uncontrollable environments to feel alive; Garland's piece argues character itself is contextual and uncontrollable. You're both drawn to ideas that challenge the optimization mindset.",
-        "question": "The friction piece argues transcendence only comes in environments slightly out of our control. Where in your life do you still allow that uncontrollability?"
-      },
-      {
-        "name": "Jaclyn Chan",
-        "reason": "Your Burkeman quote warns against 'becoming the kind of person who does X.' Jaclyn's Karlsson piece argues we habitually underestimate people by seeing them in limited contexts. Both question the stories we tell about identity.",
-        "question": "Burkeman says we trap ourselves trying to become 'the kind of person who does X.' What identity have you let go of?"
-      },
-      {
         "name": "Juan Tejada",
         "reason": "You've both sunk deep into games with satisfying systems—you with Slay the Spire, Juan with D&D encounter design. Both find joy in understanding mechanics and making them sing.",
         "question": "Juan's video says 'you are the author of your game.' What game (literal or metaphorical) have you learned to author?"
+      },
+      {
+        "name": "Jackie Luo",
+        "reason": "Your Burkeman warns against 'becoming the kind of person who does X' instead of just doing it. Stevens spent his whole life being 'the kind of person' a butler should be—and couldn't just tell Miss Kenton he loved her.",
+        "question": "Stevens' heart breaks but he smiles and says the right thing. What have you not done because it didn't fit who you're supposed to be?"
+      },
+      {
+        "name": "Bobby Thakkar",
+        "reason": "Friction-maxxing argues transcendence happens in environments 'slightly out of our control.' Billionaires' Row creates the opposite—spaces so controlled they're neither dead nor alive. Both diagnose what hyper-control costs us.",
+        "question": "The Billionaires' Row video calls these towers 'a safety deposit in the sky.' What space have you found that feels actually alive?"
       }
     ]
   },
@@ -53,19 +53,55 @@
     },
     "matches": [
       {
-        "name": "Luna Ruan",
-        "reason": "You chose Rembrandt's self-portrait; Luna chose Rilke's poem about a sculpture that sees the viewer. Both center on the encounter between viewer and artwork—who is looking at whom.",
-        "question": "Rembrandt painted himself as a king while bankrupt. When have you held onto dignity in the face of ruin?"
+        "name": "Shii Ann Huang",
+        "reason": "Your Rembrandt is about self-representation—bankrupt, grieving, painting himself as a monarch. Shii Ann's Buddhism book argues the 'self' is largely construction. Both question what the self really is.",
+        "question": "Robert Wright argues our desires are products of evolution, not authentically 'ours.' What desire have you let go of?"
       },
       {
         "name": "Teddy Smyth",
         "reason": "You recover stolen art; Teddy is interested in 'ways of seeing.' Both of you know that looking is never neutral—there's always politics in the gaze.",
-        "question": "You've repatriated over 1,100 stolen works. What does it feel like to return something to where it belongs?"
+        "question": "Your video analysis reveals what witnesses couldn't see in real time. What has close attention revealed to you that you missed at first?"
       },
       {
         "name": "Jaclyn Chan",
         "reason": "Auerbach's Mimesis traces how literature represents reality. Jaclyn's Proust piece argues reading trains us to notice fine-grained experience. Both care about how form shapes perception.",
-        "question": "Auerbach wrote Mimesis in exile without a library. What have you made with less than you needed?"
+        "question": "The Proust essay says 'extreme precision paradoxically requires abundant metaphor.' When has indirection helped you say something more precisely?"
+      }
+    ]
+  },
+  {
+    "name": "Bobby Thakkar",
+    "photo": "photos/bobby.jpg",
+    "tagline": "builder of castles",
+    "bio": "Works at the intersection of technology and real estate. Interested in how cities work, how wealth shapes the built environment, and the systems that determine who gets to live where. Twitter presence characterized by thoughtful observations about urban development, housing policy, and the contradictions of modern city life.",
+    "bioUrl": "https://x.com/bobbythakkar",
+    "intellectual": {
+      "title": "Why New York's Billionaires' Row Is Half Empty",
+      "content": "https://youtu.be/Wehsz38P74g",
+      "summary": "B1M video exploring New York's super slender skyscrapers—engineering marvels that have transformed housing into a liquid asset class. Key concept: 'zombie urbanism,' where units are sold but not lived in, creating neighborhoods that are neither dead nor fully alive. Examines how tax loopholes, air rights, and wealth inequality have produced 'architecture as spatial financial form, not as shelter or cultural manifestation.'",
+      "themes": ["architecture", "wealth inequality", "housing", "urbanism", "investment", "New York"]
+    },
+    "emotional": {
+      "title": "DO WHAT YOU CAN'T",
+      "content": "https://youtu.be/jG7dSXcfVqE",
+      "summary": "Casey Neistat's manifesto for the creator generation. Addressed to 'the haters, the doubters, my seventh grade vice principal'—everyone who ever said 'you can't.' Argues that the new generation of creators has made gatekeepers irrelevant: 'You don't need gear, you don't need someone in your ear telling you what you can and can't do.' The haters 'are all drinking champagne in the top deck of the Titanic and we are the iceberg.'",
+      "themes": ["creativity", "defiance", "gatekeepers", "authenticity", "hustle", "dreams"]
+    },
+    "matches": [
+      {
+        "name": "Iain Nash",
+        "reason": "Your Billionaires' Row video argues luxury towers are 'architecture as spatial financial form, not shelter.' Iain's Steyerl essay defends poor images as democratic—value through circulation rather than exclusivity. One hoards; the other shares.",
+        "question": "Steyerl says poor images enable democratic participation precisely because of their degradation. What gets better when it's less precious?"
+      },
+      {
+        "name": "Juan Tejada",
+        "reason": "Casey Neistat says 'you are the iceberg' to gatekeepers' Titanic. Juan's D&D video argues 'you are the author of your game.' Both are about claiming authorship over systems that seem fixed.",
+        "question": "Your video says encounter design doesn't stop at initiative—you keep adjusting. When have you rewritten rules mid-game?"
+      },
+      {
+        "name": "Lauren Lee",
+        "reason": "Your Billionaires' Row video describes 'zombie urbanism'—spaces that are neither dead nor alive. Lauren's attention essay describes watching a moment and immediately 'seeing herself seeing.' Both diagnose a kind of absence in the midst of presence.",
+        "question": "Your essay describes losing a moment to self-narration. What would it take to just be somewhere?"
       }
     ]
   },
@@ -91,17 +127,17 @@
       {
         "name": "Jackie Luo",
         "reason": "Remedios Varo blends science and mysticism to visualize 'hidden orders and unseen truths.' Jackie's Wigner paper asks why abstract math describes physical reality. Both are drawn to the enchantment lurking in rational systems.",
-        "question": "Varo painted eccentric scientists and mystical voyagers. What's something in your life that feels both scientific and magical?"
+        "question": "Wigner's paper asks why math describes reality so well—a mystery without clean resolution. What pattern have you noticed that shouldn't work but does?"
       },
       {
-        "name": "Luna Ruan",
-        "reason": "Fan leaves everything to find her beloved. Luna's Rilke poem ends with 'you must change your life'—both are about encounters that demand transformation.",
-        "question": "Fan quietly leaves her whole world to find Reg. What would you leave everything for?"
+        "name": "Iain Nash",
+        "reason": "Your Remedios Varo visualizes 'hidden orders and unseen truths' through mystical imagery. Iain's Steyerl essay argues poor images reveal 'the actual conditions of digital circulation'—truth in degradation.",
+        "question": "Steyerl says poor images embody reality by showing how they've traveled. What has transmission or degradation revealed to you?"
       },
       {
         "name": "Kiera Wolfe",
         "reason": "On Such a Full Sea is told in collective 'we'—a community narrating one woman's journey. The Reservoir is about recovery within intergenerational community. Both honor the communal voice.",
-        "question": "Chang-rae Lee uses 'we' instead of 'I.' When has a community carried your story?"
+        "question": "The Reservoir is a 'comedy about things that aren't funny.' What serious thing do you approach with humor?"
       }
     ]
   },
@@ -125,19 +161,19 @@
     },
     "matches": [
       {
-        "name": "Garland Gay",
-        "reason": "Prairie madness argues environment causes breakdown; Garland's Gladwell argues character is contextual. You're both drawn to the idea that we're shaped by circumstance more than we admit.",
-        "question": "Thompson's companion says he has 'the soul of a teenage girl in the body of an elderly dope fiend.' What contradictions live in you?"
+        "name": "Apsara Iyer",
+        "reason": "Prairie madness is about environment shaping sanity—isolation breaking settlers' minds. Apsara's Mimesis traces how literature represents reality, written in exile. Both are about what context does to us.",
+        "question": "Auerbach wrote Mimesis without access to his library. What have you created under constraint?"
       },
       {
         "name": "Rachel Luo",
         "reason": "Prairie madness is about isolation driving people mad; Rachel's Parfit argues the self is unstable over time. Both question what holds identity together—or tears it apart.",
-        "question": "The prairie settlers went mad from loneliness. What keeps you sane?"
+        "question": "Pastor Travis says there's no 'script' we need to follow. What expectation have you let go of?"
       },
       {
         "name": "Freia Lobo",
         "reason": "Prairie madness was isolation-induced breakdown; Freia's piece argues friendship requires 'tolerating untelevised time.' Both know that connection—or its absence—is life or death.",
-        "question": "The prairie settlers' isolation was physical. What kind of isolation do you fear most?"
+        "question": "Your friendship essay argues we must 'tolerate untelevised time.' What unglamorous dailiness do you cherish?"
       }
     ]
   },
@@ -171,17 +207,17 @@
       {
         "name": "Camille Vargas",
         "reason": "You chose obituaries about what parents leave behind. Camille is drawn to heritage, roots, and the legacy of women. Both of you honor what we inherit and what we pass on.",
-        "question": "Caity Weaver's dad 'studied movies to learn how a dad should be.' What have you learned about love from watching others?"
+        "question": "Remedios Varo painted voyagers discovering 'hidden orders and unseen truths.' What hidden order have you glimpsed in your own life?"
       },
       {
         "name": "Jackie Luo",
         "reason": "Your piece argues friendship requires 'tolerating untelevised time'—the unglamorous dailiness. Jackie's Ishiguro excerpt is about Stevens and Miss Kenton's decades of untelevised time and what went unsaid.",
-        "question": "The friendship piece talks about the 'Infinite Friend'—moments when the boundary between self and world dissolves. When have you felt that?"
+        "question": "Stevens and Miss Kenton spent decades together but couldn't say what mattered. What have you left unsaid too long?"
       },
       {
-        "name": "Luna Ruan",
-        "reason": "You chose Caity Weaver's obituaries for her parents. Luna chose poems about mortality and tenderness. Both of you are drawn to what we owe each other before it's too late.",
-        "question": "What would you want someone to say about you after you're gone?"
+        "name": "Jackie Fu",
+        "reason": "Your friendship essay argues connection requires 'trading masks' and 'strategic vulnerability not naked truth.' Heated Rivalry's athletes hide love under public rivalry. Both understand that intimacy sometimes requires concealment.",
+        "question": "Heated Rivalry is about love hidden under rivalry. What have you concealed to protect something you care about?"
       }
     ]
   },
@@ -198,26 +234,26 @@
       "themes": ["mystery", "nature", "science", "unknowability", "curiosity"]
     },
     "emotional": {
-      "title": "The Tipping Point",
-      "content": "When it comes to judging other people's behavior, human beings make the mistake of overestimating the importance of fundamental character traits and underestimating the importance of situation and context. We always reach for a \"dispositional opinion\" rather than a \"contextual opinion\".\n\nThe human mind has a kind of reducing valve that tends to maintain continuity even in the face of perpetual observed changes in actual behavior.\n\nWhen we observe a woman who seems hostile and fiercely independent some of the time but passive, dependent and feminine on other occasions, our reducing valve makes us choose between the two syndromes. We decide that one pattern is in the service of the other, or that both are in the service of a third motive. She must be a really castrating lady with a façade of passivity—or perhaps she is a warm, passive-dependent woman with a surface defense of aggressiveness. But perhaps nature is bigger than our concepts and it is possible for the lady to be a hostile, fiercely independent, passive, dependent, feminine, aggressive, castrating person all-in-one. Of course, which of these she is at any particular moment would not be random or capricious—it would depend on who she is with, when, how and much, much more. But each of these aspects of herself may be a quite genuine and real aspect of her total being.\n\nCharacter, then, isn't what we think it is or rather, what we want it to be. It isn't a stable, easily identifiable set of closely related traits, and it only seems that way because of a glitch in the way our brains are organized. Character is more like a bundle of habits and tendencies and interests, loosely bound together and dependent, at certain times, on circumstance and context. The reason why most of us seem to have a consistent character is that most of us are reasonably good at controlling our environment.",
-      "summary": "Gladwell excerpt arguing character is contextual, not fixed. We overestimate personality traits and underestimate situation. We're all contradictions—'hostile, fiercely independent, passive, dependent, feminine, aggressive' all at once depending on context. Character is 'a bundle of habits loosely bound together.'",
-      "themes": ["identity", "character", "context", "psychology", "contradiction", "self"]
+      "title": "Oysters: A Love Story",
+      "content": "https://www.nytimes.com/2017/08/17/magazine/oysters-a-love-story.html",
+      "summary": "Essay about meeting a man at a bar and 'marrying' him nine hours later at Veselka. He opened oysters for a living—liked them 'keenly and quietly, without fetish or hyperbole.' Through oysters, she learns a different way of appreciating things. When her mother asks about long-term plans, she deflects: the oysters can't wait.",
+      "themes": ["love", "food", "intimacy", "appreciation", "commitment", "deflection"]
     },
     "matches": [
       {
-        "name": "Rachel Luo",
-        "reason": "Your Gladwell piece argues character is contextual, not fixed. Rachel's Parfit excerpt argues personal identity is similarly unstable—we're no more connected to our past selves than to siblings. Both dissolve the myth of a stable self.",
-        "question": "If character is just 'a bundle of habits loosely bound together,' what holds your bundle together?"
-      },
-      {
         "name": "Alice Li",
-        "reason": "Your piece argues we're all contradictions depending on context. Alice's friction piece argues we need uncontrollable environments to feel alive. Both push back against the optimization of selfhood.",
-        "question": "The eel article is about a creature that resisted scientific understanding for centuries. What about yourself resists your own understanding?"
+        "reason": "Your eel article describes a father who 'needed the mystery' of eels, 'as though it filled some kind of emptiness in him.' Alice's friction piece argues we need uncertainty and uncontrollable environments to feel alive.",
+        "question": "Alice's Burkeman warns against 'becoming the kind of person who does X.' Where do you still allow yourself to just do something without a system?"
       },
       {
         "name": "Juan Tejada",
-        "reason": "Your Gladwell piece argues we're all contradictions depending on context. Juan's DFW story is about a man who can't stop performing—even his confession of fraudulence feels like another performance. Both dissolve the idea of authentic selfhood.",
+        "reason": "Your oyster man liked things 'keenly and quietly, without fetish or hyperbole.' Juan's Good Old Neon narrator can't stop performing—even recognizing his fraudulence becomes another performance. One escaped the trap; one is caught in it.",
         "question": "Good Old Neon's narrator says even recognizing his fraudulence became another fraud. When does self-awareness become its own trap?"
+      },
+      {
+        "name": "Sid Shanker",
+        "reason": "Your eel article is about a creature that resists understanding—no one has ever seen them mate. Sid's Moby Dick chapter finds wonder in ambergris, value in the strange and overlooked. Both honor mystery in nature.",
+        "question": "Melville's ambergris chapter finds perfume in whale distress. What unexpected thing have you found beautiful?"
       }
     ]
   },
@@ -246,17 +282,17 @@
       {
         "name": "Teddy Smyth",
         "reason": "You're both obsessed with images and how they move. Your Steyerl essay is about poor images gaining meaning through transmission; Teddy's video analysis examines how footage reveals truth. Both know that seeing is never neutral.",
-        "question": "Steyerl says poor images embody 'reality' by revealing conditions of circulation. What has a degraded image taught you that a crisp one couldn't?"
+        "question": "Van Ruyssevelt was fascinated by 'the manner in which things presented themselves' rather than their outward appearance. What do you see that others miss?"
       },
       {
-        "name": "Lauren Lee",
-        "reason": "Your essay defends images that get dismissed; Lauren's attention piece is about the difficulty of truly seeing without self-consciousness. Both examine what gets lost in the act of looking.",
-        "question": "Steyerl argues poor images enable democratic participation. What's something you've learned from a blurry screenshot?"
+        "name": "Bobby Thakkar",
+        "reason": "Your Steyerl essay defends poor images—value through circulation rather than exclusivity. Bobby's Billionaires' Row video argues luxury towers are 'architecture as spatial financial form, not shelter.' One democratizes; the other hoards.",
+        "question": "Casey Neistat's 'Do What You Can't' is addressed to gatekeepers—'you don't need someone in your ear telling you what you can and can't do.' What gatekeepers have you made irrelevant?"
       },
       {
         "name": "Corrine Ciani",
         "reason": "Your Gimhongsok piece uses silence as protest against capitalism's demands on the body. Corrine's prairie madness is about isolation breaking the mind. Both sit with what happens when the noise stops.",
-        "question": "The performers in Solitude of Silences sit still for hours. What's the longest you've been silent?"
+        "question": "Thompson's Heidi diagnoses him as having 'the soul of a teenage girl in the body of an elderly dope fiend.' What contradiction defines you?"
       }
     ]
   },
@@ -282,17 +318,17 @@
       {
         "name": "Kiera Wolfe",
         "reason": "You both chose fiction that plays with form and craft—novels that care about how stories are told, not just what happens.",
-        "question": "What draws you to a book—the premise, the prose, or something else?"
+        "question": "Egan's PowerPoint chapter captures pauses in rock songs. What pause or silence has stayed with you?"
       },
       {
         "name": "Luna Ruan",
         "reason": "Heated Rivalry is about rivals who become lovers; Luna's Rilke ends 'you must change your life.' Both are about desire that transforms.",
-        "question": "What do you want that you haven't admitted to yourself yet?"
+        "question": "Rilke's torso demands 'you must change your life.' What has demanded that of you?"
       },
       {
         "name": "Jaclyn Chan",
         "reason": "You both seem drawn to stories about obsession and craft—the pursuit of excellence and what it costs.",
-        "question": "What's something you've pursued with the intensity of a rivalry?"
+        "question": "Karlsson initially dismissed his friend as just 'funny' before seeing his depth. Who have you underestimated?"
       }
     ]
   },
@@ -319,17 +355,17 @@
       {
         "name": "Garland Gay",
         "reason": "Wigner's paper is about something that shouldn't work but does—math describing reality. The eel article is about something that resisted understanding for centuries. You're both drawn to mysteries that stay mysterious.",
-        "question": "Wigner called mathematics 'unreasonably effective.' What in your life has been unreasonably effective—something that works but you can't explain why?"
+        "question": "The eel article describes a father who 'needed the mystery.' What mystery do you need?"
       },
       {
         "name": "Freia Lobo",
         "reason": "Stevens and Miss Kenton's scene is about decades of 'untelevised time'—the unglamorous dailiness that Freia's friendship piece says real connection requires. Both know that what matters often goes unsaid.",
-        "question": "Stevens says 'my heart was breaking' but smiles and says the right thing. When have you done that?"
+        "question": "Your friendship essay argues connection requires 'strategic vulnerability not naked truth.' What have you strategically revealed?"
       },
       {
         "name": "Luna Ruan",
         "reason": "Rilke's torso 'sees' the viewer and demands change; Stevens spends decades not letting himself be seen by Miss Kenton. Both texts sit with the weight of what we allow ourselves to perceive.",
-        "question": "Miss Kenton says 'one can't be forever dwelling on what might have been.' Do you believe that?"
+        "question": "Rilke's torso demands 'you must change your life.' What has looked at you and demanded change?"
       }
     ]
   },
@@ -355,17 +391,17 @@
       {
         "name": "Freia Lobo",
         "reason": "Your Karlsson piece argues we habitually underestimate people by seeing them in limited contexts. Freia's piece argues friendship requires 'trading masks' and strategic vulnerability. Both are about how hard it is to truly see someone.",
-        "question": "Karlsson says we need to treat people as 'unfinished.' Who have you revised your judgment of recently?"
+        "question": "Caity Weaver's dad's trick for popularity: 'I like people.' What's your trick for connection?"
       },
       {
         "name": "Alice Li",
         "reason": "Your Karlsson piece argues we habitually underestimate people. Alice's Burkeman quote warns against 'becoming the kind of person who does X' instead of just doing things. Both question how we construct narratives about ourselves and others.",
-        "question": "Karlsson initially dismissed his friend as just 'funny.' What's a first impression you've had to revise?"
+        "question": "Friction-maxxing argues transcendence happens in environments 'slightly out of our control.' When has losing control opened something up?"
       },
       {
-        "name": "Kiera Wolfe",
-        "reason": "Your Proust piece emphasizes precision through metaphor—capturing fine-grained experience. Kiera's Egan piece uses PowerPoint slides to capture pauses in music. Both are about finding new forms for elusive experiences.",
-        "question": "The Proust essay argues that 'extreme precision paradoxically requires abundant metaphor.' What's something you struggle to describe precisely?"
+        "name": "Luna Ruan",
+        "reason": "Your Karlsson essay says his friend's core trait was 'responsiveness'—truly attending to others. Luna's Brooks poem was written after a stranger cried at simply being seen. Attention as circuit: the capacity to see others, and the need to be seen.",
+        "question": "Brooks' waiter cried at a simple 'Good morning.' When has small attention meant everything?"
       }
     ]
   },
@@ -389,18 +425,18 @@
     "matches": [
       {
         "name": "Garland Gay",
-        "reason": "Good Old Neon is about the impossibility of escaping performance—even confessing fraudulence feels like another fraud. Garland's Gladwell piece argues character is contextual, not fixed. Both question whether there's a 'real' self underneath.",
-        "question": "The narrator can't stop performing even in therapy. Where do you feel most like yourself vs. most like you're performing?"
+        "reason": "Good Old Neon is about being trapped in performance—even confessing fraudulence feels like fraud. Garland's oyster man liked things 'keenly and quietly, without fetish or hyperbole.' One can't escape performing; the other just appreciates.",
+        "question": "The oyster essay is about learning to appreciate things without turning them into a project. What do you like keenly and quietly?"
       },
       {
-        "name": "Alice Li",
-        "reason": "You both think in systems—your D&D video is about understanding encounter math, Alice sank hundreds of hours into Slay the Spire's engine-building. Both find satisfaction in mechanics that click.",
-        "question": "Your video argues 'you are the author of your game.' What's a system you've learned to bend to your will?"
+        "name": "Shii Ann Huang",
+        "reason": "Good Old Neon is about being trapped in self-awareness—even recognizing fraudulence becomes another fraud. Buddhism argues the self is largely illusion. One is the trap; the other might be the key.",
+        "question": "Robert Wright argues meditation helps us see through the illusion of self. When has self-awareness felt like a trap?"
       },
       {
-        "name": "Luna Ruan",
-        "reason": "Good Old Neon ends with 'David Wallace' pondering what led Neal to take his life. Luna chose Brooks' address to 'the young who want to die' and Rilke's demand to change your life. Both sit with mortality and what we owe each other.",
-        "question": "DFW's narrator wanted to feel something real. Rilke's torso demands transformation. What do you want?"
+        "name": "Iain Nash",
+        "reason": "Good Old Neon's narrator can't stop performing—even therapy becomes performance. Iain's Gimhongsok piece uses silence and stillness as protest against capitalism's demands. One is trapped in noise; the other chooses quiet.",
+        "question": "The performers in Solitude of Silences sit still for hours in animal masks. When has stillness or silence changed something for you?"
       }
     ]
   },
@@ -426,17 +462,17 @@
       {
         "name": "Jaclyn Chan",
         "reason": "You both chose pieces about form and attention—Egan's PowerPoint chapter captures pauses in music; Jaclyn's Proust piece argues reading trains us to notice fine-grained experience.",
-        "question": "Why do pauses matter? What do they let in?"
+        "question": "The Proust essay says reading trains us to notice fine-grained experience. What has reading taught you to see?"
       },
       {
         "name": "Jackie Fu",
         "reason": "The Reservoir is a comedy about recovery—'batshit and fun' but pickles into something deeper. Jackie Fu chose Heated Rivalry, where rivals become lovers. Both find unexpected tenderness in unconventional forms.",
-        "question": "Brasch says 'serious and silly belong together.' When has humor helped you through something hard?"
+        "question": "Heated Rivalry's athletes hide love under public animosity. What have you hidden in plain sight?"
       },
       {
-        "name": "Freia Lobo",
-        "reason": "The Reservoir is about reconnecting with grandparents in early sobriety—intergenerational intimacy in times of fog. Freia's friendship piece argues we must 'tolerate untelevised time.' Both honor the unglamorous dailiness of showing up.",
-        "question": "Brasch says 'call your grandma—she has all your answers.' What's something an older person taught you that you didn't expect?"
+        "name": "Corrine Ciani",
+        "reason": "The Reservoir is a 'comedy about things that aren't funny'—recovery, dementia, intergenerational love. Thompson's piece mixes gonzo chaos with unexpected vulnerability. Both find tenderness in unlikely places.",
+        "question": "Thompson gets diagnosed as having 'the soul of a teenage girl in the body of an elderly dope fiend.' What unlikely truth has someone told you about yourself?"
       }
     ]
   },
@@ -462,19 +498,19 @@
     },
     "matches": [
       {
-        "name": "Alice Li",
-        "reason": "Your attention piece is about failing to just be present—narrating the moment instead of living it. Alice's Burkeman warns against 'becoming the kind of person who does X.' Both know that self-consciousness can be a trap.",
-        "question": "You describe watching a beautiful moment and immediately losing it to self-narration. How do you get back?"
+        "name": "Apsara Iyer",
+        "reason": "Your attention essay is about Simone Weil's idea of attention as self-dissolution—being so absorbed you forget you're attending. Auerbach wrote Mimesis in Istanbul exile without his library, attending to texts purely from memory.",
+        "question": "Auerbach wrote Mimesis without access to his library—pure attention to what he remembered. What have you attended to so deeply it changed you?"
       },
       {
-        "name": "Luna Ruan",
-        "reason": "Your attention piece asks what it means to truly see. Luna's Rilke ends 'you must change your life'—both are about the moral weight of real perception.",
-        "question": "Rilke's torso demands transformation. What has demanded that of you?"
+        "name": "Shii Ann Huang",
+        "reason": "Your attention essay describes Simone Weil's idea of attention as self-dissolution—forgetting you're someone who's attending. Shii Ann's Buddhism book argues meditation helps us see through the illusion of self.",
+        "question": "Robert Wright says meditation reveals that our desires aren't truly 'ours.' What has attention or stillness revealed to you?"
       },
       {
         "name": "Rachel Luo",
         "reason": "Your 'Wanting' excerpt is about learning to value ordinary over greatness. Rachel's Pastor Travis quote rejects 'scripts' for life. Both celebrate the freedom of being enough as you are.",
-        "question": "Fan's mother named her 'Ordinary' as a blessing. What blessing have you received that you didn't recognize at first?"
+        "question": "Parfit says we're siblings to our past selves—no essential 'you' persists. What have you let your past self keep?"
       }
     ]
   },
@@ -500,17 +536,17 @@
       {
         "name": "Apsara Iyer",
         "reason": "Your Rilke poem is about a sculpture that sees the viewer—art as encounter. Apsara's Rembrandt self-portrait and her work recovering stolen art both center on what happens when we truly see a work of art.",
-        "question": "Rilke says 'there is no place that does not see you.' When has a work of art seen you?"
-      },
-      {
-        "name": "Freia Lobo",
-        "reason": "Your Brooks poem came from a stranger's tears at a simple 'Good morning.' Freia chose obituaries—both texts honor small moments of recognition and what we owe each other.",
-        "question": "Brooks wrote her poem after a waiter cried at being seen. When has a small gesture meant everything?"
+        "question": "Rembrandt painted himself as a monarch when bankrupt and grieving. When have you asserted dignity against circumstance?"
       },
       {
         "name": "Lauren Lee",
         "reason": "Your Rilke ends 'you must change your life.' Lauren's attention piece asks what happens when we truly see something outside ourselves. Both are about the moral weight of real perception.",
-        "question": "Rilke's torso demands transformation. What has demanded that of you?"
+        "question": "Your attention essay describes seeing a beautiful moment and immediately narrating it. What would it take to just be there?"
+      },
+      {
+        "name": "Sid Shanker",
+        "reason": "Your Brooks poem was inspired by a waiter who cried at being seen. In Little Miss Sunshine, Olive's family truly sees her—and joins her transgressive dance in solidarity. Both are about the power of being witnessed.",
+        "question": "Olive's family rushes the stage to join her inappropriate dance. When has someone's support surprised you?"
       }
     ]
   },
@@ -534,19 +570,56 @@
     },
     "matches": [
       {
-        "name": "Garland Gay",
-        "reason": "Parfit argues there's no essential 'you' over time. Gladwell argues character is contextual, not fixed. You're both drawn to ideas that dissolve the myth of a stable self.",
-        "question": "Parfit says we're like siblings to our past selves. What would you say to the version of yourself from ten years ago?"
-      },
-      {
         "name": "Alice Li",
         "reason": "Your Pastor Travis quote rejects 'scripts' for how to live. Alice's Burkeman quote warns against 'becoming the kind of person who does X.' Both push back against identity as project.",
-        "question": "What script did you abandon? What did you find instead?"
+        "question": "Burkeman warns against 'becoming the kind of person who does X.' What identity project have you abandoned?"
       },
       {
         "name": "Camille Vargas",
         "reason": "You both turn everyday activities into creative expressions of care—you with gardening and cooking, Camille with ikebana. Both drawn to heritage, roots, and the domestic arts as something meaningful.",
         "question": "Fan in Camille's novel leaves everything to find someone she loves. What would you leave everything for?"
+      },
+      {
+        "name": "Sid Shanker",
+        "reason": "Pastor Travis celebrates 'diversity in how we do life.' In Little Miss Sunshine, the Hoovers rush the stage to join Olive's transgressive dance—rejecting the pageant's script. Both celebrate defying convention for authentic expression.",
+        "question": "The Hoovers break every rule to support Olive onstage. When have you broken a script to support someone you love?"
+      }
+    ]
+  },
+  {
+    "name": "Sid Shanker",
+    "photo": "photos/sid.jpg",
+    "tagline": "systems wonderer",
+    "bio": "Programmer at Baseten in New York, building tools to simplify machine learning. Writes a technical blog exploring systems programming, networking, Rust, and distributed systems. Side projects include a multiplayer game called Assassins and an NYC subway arrivals board. Curiosity spans video game analysis to mathematical concepts like ergodicity. Drawn to wonder at the natural world.",
+    "bioUrl": "https://squidarth.com/",
+    "intellectual": {
+      "title": "Ambergris from Moby Dick by Herman Melville",
+      "content": "https://www.mobydick-hermanmelville.com/Books_Novels_Moby_Dick/92Ambergris_NinetyTwo_Books_Chapters_Moby_Dick_The_Whale_By_Herman_Melville.html",
+      "blurb": "I picked one of my favorite passages—a lot of the book is about wonder at the natural world.",
+      "summary": "Melville's chapter on ambergris—a valuable substance found in sperm whales, used in perfumes and delicacies. Explores the irony that refined society treasured something from whale digestive distress. Defends whalers against accusations of foulness, arguing healthy whales are naturally fragrant. A meditation on transformation, value found in unlikely places, and the dignity of overlooked labor.",
+      "themes": ["wonder", "nature", "transformation", "value", "whaling", "irony"]
+    },
+    "emotional": {
+      "title": "Super Freak scene from Little Miss Sunshine",
+      "content": "https://www.youtube.com/watch?v=gGn98r-6QA",
+      "summary": "The climactic scene where seven-year-old Olive performs a striptease to 'Super Freak' at a children's beauty pageant—a routine her grandfather taught her. As the horrified audience tries to stop her, her entire dysfunctional family joins her onstage in solidarity. A transgressive act of authenticity that becomes a moment of family unity against convention.",
+      "themes": ["authenticity", "family", "transgression", "solidarity", "convention", "joy"]
+    },
+    "matches": [
+      {
+        "name": "Garland Gay",
+        "reason": "Your Moby Dick chapter is about wonder at the natural world—finding value in the strange and overlooked. Garland's eel article describes a creature that has resisted human understanding for centuries. Both honor mystery in nature.",
+        "question": "The eel defies observation—no one has ever seen them mate. What creature or phenomenon fills you with wonder?"
+      },
+      {
+        "name": "Kiera Wolfe",
+        "reason": "Little Miss Sunshine's finale is transgressive joy—the family joins Olive's inappropriate dance. The Reservoir is 'a comedy about things that aren't funny.' Both find liberation in refusing to be appropriate.",
+        "question": "Brasch writes 'comedies about things that aren't funny' because 'serious and silly belong together.' When has being inappropriate set you free?"
+      },
+      {
+        "name": "Corrine Ciani",
+        "reason": "Your Little Miss Sunshine pick is about a family uniting in glorious chaos. Thompson's gonzo piece ends with an unexpected diagnosis at a waterfall. Both find truth through absurdity.",
+        "question": "Thompson gets told he has 'the soul of a teenage girl in the body of an elderly dope fiend.' What absurd thing turned out to be true about you?"
       }
     ]
   },
@@ -569,19 +642,19 @@
     },
     "matches": [
       {
-        "name": "Garland Gay",
-        "reason": "Buddhism argues the self is largely illusion; Gladwell argues character is contextual. You're both interested in how we're less solid than we think.",
-        "question": "Robert Wright argues Buddhism's insights align with evolutionary psychology. What's a Buddhist idea that changed how you see yourself?"
+        "name": "Teddy Smyth",
+        "reason": "Buddhism argues the self is largely illusion; meditation helps us see through it. Teddy's Van Ruyssevelt had 'an almost mystical relationship with light'—seeing differently through sustained attention.",
+        "question": "Van Ruyssevelt worked in layers, with light providing structure. What has patience or layering revealed to you?"
       },
       {
         "name": "Rachel Luo",
         "reason": "Your Takata video interrupts its story 'just before the best part.' Rachel's Parfit piece argues we're not the same person over time—our narratives of self are also interrupted, incomplete. Both play with what gets left out.",
-        "question": "The Takata video cuts off before the climax. What story about yourself have you never finished telling?"
+        "question": "Pastor Travis celebrates 'diversity in how we do life.' What unexpected path has brought you joy?"
       },
       {
         "name": "Jackie Fu",
         "reason": "Takata's video explores desire through myth and gender-bending storytelling. Jackie Fu's Heated Rivalry is about desire between rivals. Both find the erotic in unexpected forms.",
-        "question": "Takata's work questions masculine and feminine definitions. Where do you feel most free from those categories?"
+        "question": "Perfection is about waking up in traps—'lack of foresight, or just born too late?' What trap have you woken up in?"
       }
     ]
   },
@@ -605,19 +678,19 @@
     },
     "matches": [
       {
-        "name": "Apsara Iyer",
-        "reason": "You both think deeply about how we see art and how art sees us. Your video analysis is about evidence and perspective; Apsara chose Rembrandt's self-portrait and works to recover stolen cultural heritage.",
-        "question": "Your intellectual pick analyzes how video reveals what witnesses couldn't see. What has changed how you see?"
-      },
-      {
-        "name": "Luna Ruan",
-        "reason": "Your video is about ways of seeing—how perspective shapes truth. Luna's Rilke poem is about being seen by art: 'there is no place that does not see you.' Both interrogate the gaze.",
-        "question": "Rilke says the torso sees you. When has something inanimate seemed to look back?"
+        "name": "Camille Vargas",
+        "reason": "Your Van Ruyssevelt had 'an almost mystical relationship with light'—for him, art was light, color harmony, and composition. Camille's Remedios Varo blends science with mysticism and tarot, visualizing 'hidden orders and unseen truths.'",
+        "question": "Varo painted voyagers in curious contraptions discovering hidden orders. What hidden order have you glimpsed?"
       },
       {
         "name": "Lauren Lee",
-        "reason": "Your interests include propaganda and ways of seeing. Lauren's attention piece is about what happens when we truly attend to something—and how self-consciousness interferes. Both examine the act of looking.",
-        "question": "Lauren describes watching a father teach his daughter to tie her shoes and immediately narrating the experience. How do you stay present with what you're seeing?"
+        "reason": "Your video analysis reveals what witnesses couldn't see in real time. Lauren's attention piece describes watching a father teach his daughter to tie her shoes and immediately losing the moment to self-narration.",
+        "question": "Lauren describes 'seeing herself seeing' as the problem. How do you stay present with what you're looking at?"
+      },
+      {
+        "name": "Bobby Thakkar",
+        "reason": "Your video analysis examines how footage reveals truth. The Billionaires' Row video is visual investigation into what empty towers reveal about wealth and cities—both use close looking to expose what's hidden.",
+        "question": "The Billionaires' Row video calls these buildings 'architecture as financial form, not shelter.' What does a building reveal about its owners?"
       }
     ]
   }
